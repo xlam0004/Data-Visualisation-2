@@ -1,485 +1,485 @@
-year,university,ranking
-2012,University of Oxford,1
-2012,University of Cambridge,2
-2012,Imperial College London,3
-2012,University College London,4
-2012,University of Edinburgh,5
-2012,London School of Economics and Political Science,6
-2012,University of Manchester,7
-2012,King's College London,8
-2012,University of Bristol,9
-2012,Durham University,10
-2012,University of St Andrews,11
-2012,University of Sussex,12
-2012,University of Sheffield,13
-2012,University of Glasgow,14
-2012,"Royal Holloway, University of London",15
-2012,University of York,16
-2012,Queen Mary University of London,17
-2012,University of Southampton,18
-2012,Lancaster University,19
-2012,University of Leeds,20
-2012,University of Nottingham,21
-2012,University of East Anglia UEA,22
-2012,Newcastle University,23
-2012,University of Birmingham,24
-2012,University of Aberdeen,25
-2012,University of Exeter,26
-2012,University of Warwick,27
-2012,University of Reading,28
-2012,University of Dundee,29
-2012,University of Liverpool,30
-2012,University of Leicester,31
-2012,Cardiff University,32
-2012,University of Essex,33
-2012,Bangor University,34
-2012,Brunel University London,35
-2012,Queen's University Belfast,36
-2012,University of Bath,37
-2012,Aberystwyth University,38
-2012,University of Stirling,43
-2012,University of Surrey,44
-2012,Heriot-Watt University,46
-2012,Loughborough University,48
-2012,University of Kent,50
-2012,St George's University of London,51
-2013,University of Oxford,1
-2013,University of Cambridge,2
-2013,Imperial College London,3
-2013,University College London,4
-2013,University of Edinburgh,5
-2013,London School of Economics and Political Science,6
-2013,University of Manchester,7
-2013,King's College London,8
-2013,University of Bristol,9
-2013,Durham University,10
-2013,University of St Andrews,12
-2013,University of Sussex,14
-2013,University of Sheffield,13
-2013,University of Glasgow,19
-2013,"Royal Holloway, University of London",15
-2013,University of York,11
-2013,Queen Mary University of London,22
-2013,University of Southampton,18
-2013,Lancaster University,21
-2013,University of Leeds,20
-2013,University of Nottingham,16
-2013,University of East Anglia UEA,27
-2013,Newcastle University,29
-2013,University of Birmingham,24
-2013,University of Aberdeen,26
-2013,University of Exeter,23
-2013,University of Warwick,17
-2013,University of Reading,28
-2013,University of Dundee,33
-2013,University of Liverpool,25
-2013,University of Leicester,30
-2013,Cardiff University,31
-2013,University of Essex,34
-2013,Bangor University,36
-2013,Brunel University London,39
-2013,Queen's University Belfast,37
-2013,University of Bath,38
-2013,Aberystwyth University,35
-2013,University of Stirling,45
-2013,University of Surrey,47
-2013,Heriot-Watt University,41
-2013,Loughborough University,43
-2013,University of Kent,50
-2013,St George's University of London,32
-2014,University of Oxford,1
-2014,University of Cambridge,2
-2014,Imperial College London,3
-2014,University College London,4
-2014,University of Edinburgh,7
-2014,London School of Economics and Political Science,5
-2014,University of Manchester,8
-2014,King's College London,6
-2014,University of Bristol,9
-2014,Durham University,10
-2014,University of St Andrews,16
-2014,University of Sussex,17
-2014,University of Sheffield,13
-2014,University of Glasgow,15
-2014,"Royal Holloway, University of London",12
-2014,University of York,11
-2014,Queen Mary University of London,14
-2014,University of Southampton,21
-2014,Lancaster University,18
-2014,University of Leeds,19
-2014,University of Nottingham,24
-2014,University of East Anglia UEA,27
-2014,Newcastle University,31
-2014,University of Birmingham,23
-2014,University of Aberdeen,28
-2014,University of Exeter,22
-2014,University of Warwick,20
-2014,University of Reading,29
-2014,University of Dundee,30
-2014,University of Liverpool,26
-2014,University of Leicester,25
-2014,Cardiff University,32
-2014,University of Essex,36
-2014,Bangor University,40
-2014,Brunel University London,34
-2014,Queen's University Belfast,35
-2014,University of Bath,37
-2014,Aberystwyth University,39
-2014,University of Stirling,47
-2014,University of Surrey,48
-2014,Heriot-Watt University,41
-2014,Loughborough University,45
-2014,University of Kent,50
-2014,St George's University of London,33
-2015,University of Oxford,1
-2015,University of Cambridge,2
-2015,Imperial College London,3
-2015,University College London,4
-2015,University of Edinburgh,6
-2015,London School of Economics and Political Science,5
-2015,University of Manchester,8
-2015,King's College London,7
-2015,University of Bristol,9
-2015,Durham University,10
-2015,University of St Andrews,14
-2015,University of Sussex,15
-2015,University of Sheffield,18
-2015,University of Glasgow,11
-2015,"Royal Holloway, University of London",17
-2015,University of York,16
-2015,Queen Mary University of London,13
-2015,University of Southampton,20
-2015,Lancaster University,19
-2015,University of Leeds,21
-2015,University of Nottingham,25
-2015,University of East Anglia UEA,28
-2015,Newcastle University,31
-2015,University of Birmingham,22
-2015,University of Aberdeen,26
-2015,University of Exeter,23
-2015,University of Warwick,12
-2015,University of Reading,33
-2015,University of Dundee,32
-2015,University of Liverpool,24
-2015,University of Leicester,29
-2015,Cardiff University,30
-2015,University of Essex,39
-2015,Bangor University,37
-2015,Brunel University London,34
-2015,Queen's University Belfast,35
-2015,University of Bath,38
-2015,Aberystwyth University,41
-2015,University of Stirling,40
-2015,University of Surrey,45
-2015,Heriot-Watt University,44
-2015,Loughborough University,46
-2015,University of Kent,50
-2015,St George's University of London,27
-2016,University of Oxford,1
-2016,University of Cambridge,2
-2016,Imperial College London,3
-2016,University College London,4
-2016,University of Edinburgh,6
-2016,London School of Economics and Political Science,5
-2016,University of Manchester,8
-2016,King's College London,7
-2016,University of Bristol,9
-2016,Durham University,10
-2016,University of St Andrews,13
-2016,University of Sussex,23
-2016,University of Sheffield,15
-2016,University of Glasgow,11
-2016,"Royal Holloway, University of London",19
-2016,University of York,21
-2016,Queen Mary University of London,16
-2016,University of Southampton,17
-2016,Lancaster University,20
-2016,University of Leeds,22
-2016,University of Nottingham,24
-2016,University of East Anglia UEA,25
-2016,Newcastle University,32
-2016,University of Birmingham,18
-2016,University of Aberdeen,29
-2016,University of Exeter,14
-2016,University of Warwick,12
-2016,University of Reading,27
-2016,University of Dundee,31
-2016,University of Liverpool,26
-2016,University of Leicester,28
-2016,Cardiff University,30
-2016,University of Essex,39
-2016,Bangor University,38
-2016,Brunel University London,47
-2016,Queen's University Belfast,34
-2016,University of Bath,35
-2016,Aberystwyth University,37
-2016,University of Stirling,43
-2016,University of Surrey,36
-2016,Heriot-Watt University,49
-2016,Loughborough University,42
-2016,University of Kent,40
-2016,St George's University of London,33
-2017,University of Oxford,1
-2017,University of Cambridge,2
-2017,Imperial College London,3
-2017,University College London,4
-2017,University of Edinburgh,6
-2017,London School of Economics and Political Science,5
-2017,University of Manchester,8
-2017,King's College London,7
-2017,University of Bristol,9
-2017,Durham University,12
-2017,University of St Andrews,14
-2017,University of Sussex,23
-2017,University of Sheffield,13
-2017,University of Glasgow,11
-2017,"Royal Holloway, University of London",27
-2017,University of York,18
-2017,Queen Mary University of London,15
-2017,University of Southampton,16
-2017,Lancaster University,21
-2017,University of Leeds,20
-2017,University of Nottingham,22
-2017,University of East Anglia UEA,25
-2017,Newcastle University,31
-2017,University of Birmingham,19
-2017,University of Aberdeen,30
-2017,University of Exeter,17
-2017,University of Warwick,10
-2017,University of Reading,32
-2017,University of Dundee,28
-2017,University of Liverpool,24
-2017,University of Leicester,26
-2017,Cardiff University,29
-2017,University of Essex,41
-2017,Bangor University,39
-2017,Brunel University London,40
-2017,Queen's University Belfast,33
-2017,University of Bath,35
-2017,Aberystwyth University,37
-2017,University of Stirling,45
-2017,University of Surrey,36
-2017,Heriot-Watt University,50
-2017,Loughborough University,44
-2017,University of Kent,43
-2017,St George's University of London,34
-2018,University of Oxford,1
-2018,University of Cambridge,2
-2018,Imperial College London,3
-2018,University College London,4
-2018,University of Edinburgh,6
-2018,London School of Economics and Political Science,5
-2018,University of Manchester,8
-2018,King's College London,7
-2018,University of Bristol,9
-2018,Durham University,12
-2018,University of St Andrews,20
-2018,University of Sussex,22
-2018,University of Sheffield,13
-2018,University of Glasgow,10
-2018,"Royal Holloway, University of London",31
-2018,University of York,17
-2018,Queen Mary University of London,14
-2018,University of Southampton,15
-2018,Lancaster University,23
-2018,University of Leeds,18
-2018,University of Nottingham,21
-2018,University of East Anglia UEA,30
-2018,Newcastle University,26
-2018,University of Birmingham,19
-2018,University of Aberdeen,28
-2018,University of Exeter,16
-2018,University of Warwick,11
-2018,University of Reading,33
-2018,University of Dundee,29
-2018,University of Liverpool,27
-2018,University of Leicester,24
-2018,Cardiff University,25
-2018,University of Essex,36
-2018,Bangor University,41
-2018,Brunel University London,47
-2018,Queen's University Belfast,32
-2018,University of Bath,35
-2018,Aberystwyth University,39
-2018,University of Stirling,45
-2018,University of Surrey,37
-2018,Heriot-Watt University,49
-2018,Loughborough University,44
-2018,University of Kent,43
-2018,St George's University of London,34
-2019,University of Oxford,1
-2019,University of Cambridge,2
-2019,Imperial College London,3
-2019,University College London,4
-2019,University of Edinburgh,6
-2019,London School of Economics and Political Science,5
-2019,University of Manchester,8
-2019,King's College London,7
-2019,University of Bristol,9
-2019,Durham University,13
-2019,University of St Andrews,24
-2019,University of Sussex,23
-2019,University of Sheffield,12
-2019,University of Glasgow,11
-2019,"Royal Holloway, University of London",35
-2019,University of York,16
-2019,Queen Mary University of London,17
-2019,University of Southampton,15
-2019,Lancaster University,19
-2019,University of Leeds,21
-2019,University of Nottingham,20
-2019,University of East Anglia UEA,29
-2019,Newcastle University,26
-2019,University of Birmingham,14
-2019,University of Aberdeen,22
-2019,University of Exeter,18
-2019,University of Warwick,10
-2019,University of Reading,33
-2019,University of Dundee,31
-2019,University of Liverpool,27
-2019,University of Leicester,25
-2019,Cardiff University,28
-2019,University of Essex,34
-2019,Bangor University,45
-2019,Brunel University London,46
-2019,Queen's University Belfast,32
-2019,University of Bath,30
-2019,Aberystwyth University,40
-2019,University of Stirling,44
-2019,University of Surrey,37
-2019,Heriot-Watt University,39
-2019,Loughborough University,47
-2019,University of Kent,43
-2019,St George's University of London,36
-2020,University of Oxford,1
-2020,University of Cambridge,2
-2020,Imperial College London,3
-2020,University College London,4
-2020,University of Edinburgh,6
-2020,London School of Economics and Political Science,5
-2020,University of Manchester,8
-2020,King's College London,7
-2020,University of Bristol,10
-2020,Durham University,17
-2020,University of St Andrews,28
-2020,University of Sussex,20
-2020,University of Sheffield,14
-2020,University of Glasgow,11
-2020,"Royal Holloway, University of London",37
-2020,University of York,16
-2020,Queen Mary University of London,12
-2020,University of Southampton,15
-2020,Lancaster University,18
-2020,University of Leeds,22
-2020,University of Nottingham,21
-2020,University of East Anglia UEA,26
-2020,Newcastle University,30
-2020,University of Birmingham,13
-2020,University of Aberdeen,25
-2020,University of Exeter,19
-2020,University of Warwick,9
-2020,University of Reading,32
-2020,University of Dundee,29
-2020,University of Liverpool,23
-2020,University of Leicester,24
-2020,Cardiff University,27
-2020,University of Essex,35
-2020,Bangor University,48
-2020,Brunel University London,41
-2020,Queen's University Belfast,31
-2020,University of Bath,34
-2020,Aberystwyth University,47
-2020,University of Stirling,46
-2020,University of Surrey,38
-2020,Heriot-Watt University,36
-2020,Loughborough University,44
-2020,University of Kent,43
-2020,St George's University of London,33
-2021,University of Oxford,1
-2021,University of Cambridge,2
-2021,Imperial College London,3
-2021,University College London,4
-2021,University of Edinburgh,6
-2021,London School of Economics and Political Science,5
-2021,University of Manchester,8
-2021,King's College London,7
-2021,University of Bristol,10
-2021,Durham University,18
-2021,University of St Andrews,34
-2021,University of Sussex,21
-2021,University of Sheffield,14
-2021,University of Glasgow,11
-2021,"Royal Holloway, University of London",40
-2021,University of York,16
-2021,Queen Mary University of London,13
-2021,University of Southampton,15
-2021,Lancaster University,17
-2021,University of Leeds,20
-2021,University of Nottingham,19
-2021,University of East Anglia UEA,28
-2021,Newcastle University,26
-2021,University of Birmingham,12
-2021,University of Aberdeen,25
-2021,University of Exeter,24
-2021,University of Warwick,9
-2021,University of Reading,32
-2021,University of Dundee,31
-2021,University of Liverpool,22
-2021,University of Leicester,23
-2021,Cardiff University,27
-2021,University of Essex,38
-2021,Bangor University,49
-2021,Brunel University London,42
-2021,Queen's University Belfast,29
-2021,University of Bath,30
-2021,Aberystwyth University,47
-2021,University of Stirling,41
-2021,University of Surrey,35
-2021,Heriot-Watt University,44
-2021,Loughborough University,45
-2021,University of Kent,39
-2021,St George's University of London,33
-2022,University of Oxford,1
-2022,University of Cambridge,2
-2022,Imperial College London,3
-2022,University College London,4
-2022,University of Edinburgh,6
-2022,London School of Economics and Political Science,5
-2022,University of Manchester,8
-2022,King's College London,7
-2022,University of Bristol,11
-2022,Durham University,23
-2022,University of St Andrews,34
-2022,University of Sussex,21
-2022,University of Sheffield,13
-2022,University of Glasgow,10
-2022,"Royal Holloway, University of London",45
-2022,University of York,24
-2022,Queen Mary University of London,14
-2022,University of Southampton,16
-2022,Lancaster University,15
-2022,University of Leeds,17
-2022,University of Nottingham,18
-2022,University of East Anglia UEA,26
-2022,Newcastle University,20
-2022,University of Birmingham,12
-2022,University of Aberdeen,22
-2022,University of Exeter,19
-2022,University of Warwick,9
-2022,University of Reading,32
-2022,University of Dundee,30
-2022,University of Liverpool,25
-2022,University of Leicester,27
-2022,Cardiff University,28
-2022,University of Essex,38
-2022,Bangor University,47
-2022,Brunel University London,41
-2022,Queen's University Belfast,31
-2022,University of Bath,29
-2022,Aberystwyth University,55
-2022,University of Stirling,39
-2022,University of Surrey,35
-2022,Heriot-Watt University,58
-2022,Loughborough University,44
-2022,University of Kent,43
-2022,St George's University of London,33
+year,university,ranking,,,
+2012,University of Oxford,1,,1,1
+2012,University of Cambridge,2,,10,2
+2012,Imperial College London,3,,11,3
+2012,University College London,4,,12,4
+2012,University of Edinburgh,5,,13,5
+2012,London School of Economics and Political Science,6,,14,6
+2012,University of Manchester,7,,15,7
+2012,King's College London,8,,16,8
+2012,University of Bristol,9,,17,9
+2012,Durham University,10,,18,10
+2012,University of St Andrews,11,,19,11
+2012,University of Sussex,12,,2,12
+2012,University of Sheffield,13,,20,13
+2012,University of Glasgow,14,,21,14
+2012,"Royal Holloway, University of London",15,,22,15
+2012,University of York,16,,23,16
+2012,Queen Mary University of London,17,,24,17
+2012,University of Southampton,18,,25,18
+2012,Lancaster University,19,,26,19
+2012,University of Leeds,20,,27,20
+2012,University of Nottingham,21,,28,21
+2012,University of East Anglia UEA,22,,29,22
+2012,Newcastle University,23,,3,23
+2012,University of Birmingham,24,,30,24
+2012,University of Aberdeen,25,,31,25
+2012,University of Exeter,26,,32,26
+2012,University of Warwick,27,,33,27
+2012,University of Reading,28,,34,28
+2012,University of Dundee,29,,35,29
+2012,University of Liverpool,30,,36,30
+2012,University of Leicester,31,,37,31
+2012,Cardiff University,32,,38,32
+2012,University of Essex,33,,39,33
+2012,Bangor University,34,,4,34
+2012,Brunel University London,35,,40,35
+2012,Queen's University Belfast,36,,41,36
+2012,University of Bath,37,,42,37
+2012,Aberystwyth University,38,,43,38
+2012,University of Stirling,43,,45,39
+2012,University of Surrey,44,,46,40
+2012,Heriot-Watt University,46,,47,41
+2012,Loughborough University,48,,48,42
+2012,University of Kent,50,,49,43
+2012,St George's University of London,51,,5,44
+2013,University of Oxford,1,,50,45
+2013,University of Cambridge,2,,51,46
+2013,Imperial College London,3,,52,47
+2013,University College London,4,,53,48
+2013,University of Edinburgh,5,,54,49
+2013,London School of Economics and Political Science,6,,55,50
+2013,University of Manchester,7,,56,51
+2013,King's College London,8,,57,52
+2013,University of Bristol,9,,58,53
+2013,Durham University,10,,59,54
+2013,University of St Andrews,12,,6,55
+2013,University of Sussex,14,,60,56
+2013,University of Sheffield,13,,,
+2013,University of Glasgow,19,,,
+2013,"Royal Holloway, University of London",15,,,
+2013,University of York,11,,,
+2013,Queen Mary University of London,22,,,
+2013,University of Southampton,18,,,
+2013,Lancaster University,21,,,
+2013,University of Leeds,20,,,
+2013,University of Nottingham,16,,,
+2013,University of East Anglia UEA,27,,,
+2013,Newcastle University,29,,,
+2013,University of Birmingham,24,,,
+2013,University of Aberdeen,26,,,
+2013,University of Exeter,23,,,
+2013,University of Warwick,17,,,
+2013,University of Reading,28,,,
+2013,University of Dundee,33,,,
+2013,University of Liverpool,25,,,
+2013,University of Leicester,30,,,
+2013,Cardiff University,31,,,
+2013,University of Essex,34,,,
+2013,Bangor University,36,,,
+2013,Brunel University London,39,,,
+2013,Queen's University Belfast,37,,,
+2013,University of Bath,38,,,
+2013,Aberystwyth University,35,,,
+2013,University of Stirling,45,,,
+2013,University of Surrey,47,,,
+2013,Heriot-Watt University,41,,,
+2013,Loughborough University,43,,,
+2013,University of Kent,50,,,
+2013,St George's University of London,32,,,
+2014,University of Oxford,1,,,
+2014,University of Cambridge,2,,,
+2014,Imperial College London,3,,,
+2014,University College London,4,,,
+2014,University of Edinburgh,7,,,
+2014,London School of Economics and Political Science,5,,,
+2014,University of Manchester,8,,,
+2014,King's College London,6,,,
+2014,University of Bristol,9,,,
+2014,Durham University,10,,,
+2014,University of St Andrews,16,,,
+2014,University of Sussex,17,,,
+2014,University of Sheffield,13,,,
+2014,University of Glasgow,15,,,
+2014,"Royal Holloway, University of London",12,,,
+2014,University of York,11,,,
+2014,Queen Mary University of London,14,,,
+2014,University of Southampton,21,,,
+2014,Lancaster University,18,,,
+2014,University of Leeds,19,,,
+2014,University of Nottingham,24,,,
+2014,University of East Anglia UEA,27,,,
+2014,Newcastle University,31,,,
+2014,University of Birmingham,23,,,
+2014,University of Aberdeen,28,,,
+2014,University of Exeter,22,,,
+2014,University of Warwick,20,,,
+2014,University of Reading,29,,,
+2014,University of Dundee,30,,,
+2014,University of Liverpool,26,,,
+2014,University of Leicester,25,,,
+2014,Cardiff University,32,,,
+2014,University of Essex,36,,,
+2014,Bangor University,40,,,
+2014,Brunel University London,34,,,
+2014,Queen's University Belfast,35,,,
+2014,University of Bath,37,,,
+2014,Aberystwyth University,39,,,
+2014,University of Stirling,47,,,
+2014,University of Surrey,48,,,
+2014,Heriot-Watt University,41,,,
+2014,Loughborough University,45,,,
+2014,University of Kent,50,,,
+2014,St George's University of London,33,,,
+2015,University of Oxford,1,,,
+2015,University of Cambridge,2,,,
+2015,Imperial College London,3,,,
+2015,University College London,4,,,
+2015,University of Edinburgh,6,,,
+2015,London School of Economics and Political Science,5,,,
+2015,University of Manchester,8,,,
+2015,King's College London,7,,,
+2015,University of Bristol,9,,,
+2015,Durham University,10,,,
+2015,University of St Andrews,14,,,
+2015,University of Sussex,15,,,
+2015,University of Sheffield,18,,,
+2015,University of Glasgow,11,,,
+2015,"Royal Holloway, University of London",17,,,
+2015,University of York,16,,,
+2015,Queen Mary University of London,13,,,
+2015,University of Southampton,20,,,
+2015,Lancaster University,19,,,
+2015,University of Leeds,21,,,
+2015,University of Nottingham,25,,,
+2015,University of East Anglia UEA,28,,,
+2015,Newcastle University,31,,,
+2015,University of Birmingham,22,,,
+2015,University of Aberdeen,26,,,
+2015,University of Exeter,23,,,
+2015,University of Warwick,12,,,
+2015,University of Reading,33,,,
+2015,University of Dundee,32,,,
+2015,University of Liverpool,24,,,
+2015,University of Leicester,29,,,
+2015,Cardiff University,30,,,
+2015,University of Essex,39,,,
+2015,Bangor University,37,,,
+2015,Brunel University London,34,,,
+2015,Queen's University Belfast,35,,,
+2015,University of Bath,38,,,
+2015,Aberystwyth University,41,,,
+2015,University of Stirling,40,,,
+2015,University of Surrey,45,,,
+2015,Heriot-Watt University,44,,,
+2015,Loughborough University,46,,,
+2015,University of Kent,50,,,
+2015,St George's University of London,27,,,
+2016,University of Oxford,1,,,
+2016,University of Cambridge,2,,,
+2016,Imperial College London,3,,,
+2016,University College London,4,,,
+2016,University of Edinburgh,6,,,
+2016,London School of Economics and Political Science,5,,,
+2016,University of Manchester,8,,,
+2016,King's College London,7,,,
+2016,University of Bristol,9,,,
+2016,Durham University,10,,,
+2016,University of St Andrews,13,,,
+2016,University of Sussex,23,,,
+2016,University of Sheffield,15,,,
+2016,University of Glasgow,11,,,
+2016,"Royal Holloway, University of London",19,,,
+2016,University of York,21,,,
+2016,Queen Mary University of London,16,,,
+2016,University of Southampton,17,,,
+2016,Lancaster University,20,,,
+2016,University of Leeds,22,,,
+2016,University of Nottingham,24,,,
+2016,University of East Anglia UEA,25,,,
+2016,Newcastle University,32,,,
+2016,University of Birmingham,18,,,
+2016,University of Aberdeen,29,,,
+2016,University of Exeter,14,,,
+2016,University of Warwick,12,,,
+2016,University of Reading,27,,,
+2016,University of Dundee,31,,,
+2016,University of Liverpool,26,,,
+2016,University of Leicester,28,,,
+2016,Cardiff University,30,,,
+2016,University of Essex,39,,,
+2016,Bangor University,38,,,
+2016,Brunel University London,47,,,
+2016,Queen's University Belfast,34,,,
+2016,University of Bath,35,,,
+2016,Aberystwyth University,37,,,
+2016,University of Stirling,43,,,
+2016,University of Surrey,36,,,
+2016,Heriot-Watt University,49,,,
+2016,Loughborough University,42,,,
+2016,University of Kent,40,,,
+2016,St George's University of London,33,,,
+2017,University of Oxford,1,,,
+2017,University of Cambridge,2,,,
+2017,Imperial College London,3,,,
+2017,University College London,4,,,
+2017,University of Edinburgh,6,,,
+2017,London School of Economics and Political Science,5,,,
+2017,University of Manchester,8,,,
+2017,King's College London,7,,,
+2017,University of Bristol,9,,,
+2017,Durham University,12,,,
+2017,University of St Andrews,14,,,
+2017,University of Sussex,23,,,
+2017,University of Sheffield,13,,,
+2017,University of Glasgow,11,,,
+2017,"Royal Holloway, University of London",27,,,
+2017,University of York,18,,,
+2017,Queen Mary University of London,15,,,
+2017,University of Southampton,16,,,
+2017,Lancaster University,21,,,
+2017,University of Leeds,20,,,
+2017,University of Nottingham,22,,,
+2017,University of East Anglia UEA,25,,,
+2017,Newcastle University,31,,,
+2017,University of Birmingham,19,,,
+2017,University of Aberdeen,30,,,
+2017,University of Exeter,17,,,
+2017,University of Warwick,10,,,
+2017,University of Reading,32,,,
+2017,University of Dundee,28,,,
+2017,University of Liverpool,24,,,
+2017,University of Leicester,26,,,
+2017,Cardiff University,29,,,
+2017,University of Essex,41,,,
+2017,Bangor University,39,,,
+2017,Brunel University London,40,,,
+2017,Queen's University Belfast,33,,,
+2017,University of Bath,35,,,
+2017,Aberystwyth University,37,,,
+2017,University of Stirling,45,,,
+2017,University of Surrey,36,,,
+2017,Heriot-Watt University,50,,,
+2017,Loughborough University,44,,,
+2017,University of Kent,43,,,
+2017,St George's University of London,34,,,
+2018,University of Oxford,1,,,
+2018,University of Cambridge,2,,,
+2018,Imperial College London,3,,,
+2018,University College London,4,,,
+2018,University of Edinburgh,6,,,
+2018,London School of Economics and Political Science,5,,,
+2018,University of Manchester,8,,,
+2018,King's College London,7,,,
+2018,University of Bristol,9,,,
+2018,Durham University,12,,,
+2018,University of St Andrews,20,,,
+2018,University of Sussex,22,,,
+2018,University of Sheffield,13,,,
+2018,University of Glasgow,10,,,
+2018,"Royal Holloway, University of London",31,,,
+2018,University of York,17,,,
+2018,Queen Mary University of London,14,,,
+2018,University of Southampton,15,,,
+2018,Lancaster University,23,,,
+2018,University of Leeds,18,,,
+2018,University of Nottingham,21,,,
+2018,University of East Anglia UEA,30,,,
+2018,Newcastle University,26,,,
+2018,University of Birmingham,19,,,
+2018,University of Aberdeen,28,,,
+2018,University of Exeter,16,,,
+2018,University of Warwick,11,,,
+2018,University of Reading,33,,,
+2018,University of Dundee,29,,,
+2018,University of Liverpool,27,,,
+2018,University of Leicester,24,,,
+2018,Cardiff University,25,,,
+2018,University of Essex,36,,,
+2018,Bangor University,41,,,
+2018,Brunel University London,47,,,
+2018,Queen's University Belfast,32,,,
+2018,University of Bath,35,,,
+2018,Aberystwyth University,39,,,
+2018,University of Stirling,45,,,
+2018,University of Surrey,37,,,
+2018,Heriot-Watt University,49,,,
+2018,Loughborough University,44,,,
+2018,University of Kent,43,,,
+2018,St George's University of London,34,,,
+2019,University of Oxford,1,,,
+2019,University of Cambridge,2,,,
+2019,Imperial College London,3,,,
+2019,University College London,4,,,
+2019,University of Edinburgh,6,,,
+2019,London School of Economics and Political Science,5,,,
+2019,University of Manchester,8,,,
+2019,King's College London,7,,,
+2019,University of Bristol,9,,,
+2019,Durham University,13,,,
+2019,University of St Andrews,24,,,
+2019,University of Sussex,23,,,
+2019,University of Sheffield,12,,,
+2019,University of Glasgow,11,,,
+2019,"Royal Holloway, University of London",35,,,
+2019,University of York,16,,,
+2019,Queen Mary University of London,17,,,
+2019,University of Southampton,15,,,
+2019,Lancaster University,19,,,
+2019,University of Leeds,21,,,
+2019,University of Nottingham,20,,,
+2019,University of East Anglia UEA,29,,,
+2019,Newcastle University,26,,,
+2019,University of Birmingham,14,,,
+2019,University of Aberdeen,22,,,
+2019,University of Exeter,18,,,
+2019,University of Warwick,10,,,
+2019,University of Reading,33,,,
+2019,University of Dundee,31,,,
+2019,University of Liverpool,27,,,
+2019,University of Leicester,25,,,
+2019,Cardiff University,28,,,
+2019,University of Essex,34,,,
+2019,Bangor University,45,,,
+2019,Brunel University London,46,,,
+2019,Queen's University Belfast,32,,,
+2019,University of Bath,30,,,
+2019,Aberystwyth University,40,,,
+2019,University of Stirling,44,,,
+2019,University of Surrey,37,,,
+2019,Heriot-Watt University,39,,,
+2019,Loughborough University,47,,,
+2019,University of Kent,43,,,
+2019,St George's University of London,36,,,
+2020,University of Oxford,1,,,
+2020,University of Cambridge,2,,,
+2020,Imperial College London,3,,,
+2020,University College London,4,,,
+2020,University of Edinburgh,6,,,
+2020,London School of Economics and Political Science,5,,,
+2020,University of Manchester,8,,,
+2020,King's College London,7,,,
+2020,University of Bristol,10,,,
+2020,Durham University,17,,,
+2020,University of St Andrews,28,,,
+2020,University of Sussex,20,,,
+2020,University of Sheffield,14,,,
+2020,University of Glasgow,11,,,
+2020,"Royal Holloway, University of London",37,,,
+2020,University of York,16,,,
+2020,Queen Mary University of London,12,,,
+2020,University of Southampton,15,,,
+2020,Lancaster University,18,,,
+2020,University of Leeds,22,,,
+2020,University of Nottingham,21,,,
+2020,University of East Anglia UEA,26,,,
+2020,Newcastle University,30,,,
+2020,University of Birmingham,13,,,
+2020,University of Aberdeen,25,,,
+2020,University of Exeter,19,,,
+2020,University of Warwick,9,,,
+2020,University of Reading,32,,,
+2020,University of Dundee,29,,,
+2020,University of Liverpool,23,,,
+2020,University of Leicester,24,,,
+2020,Cardiff University,27,,,
+2020,University of Essex,35,,,
+2020,Bangor University,48,,,
+2020,Brunel University London,41,,,
+2020,Queen's University Belfast,31,,,
+2020,University of Bath,34,,,
+2020,Aberystwyth University,47,,,
+2020,University of Stirling,46,,,
+2020,University of Surrey,38,,,
+2020,Heriot-Watt University,36,,,
+2020,Loughborough University,44,,,
+2020,University of Kent,43,,,
+2020,St George's University of London,33,,,
+2021,University of Oxford,1,,,
+2021,University of Cambridge,2,,,
+2021,Imperial College London,3,,,
+2021,University College London,4,,,
+2021,University of Edinburgh,6,,,
+2021,London School of Economics and Political Science,5,,,
+2021,University of Manchester,8,,,
+2021,King's College London,7,,,
+2021,University of Bristol,10,,,
+2021,Durham University,18,,,
+2021,University of St Andrews,34,,,
+2021,University of Sussex,21,,,
+2021,University of Sheffield,14,,,
+2021,University of Glasgow,11,,,
+2021,"Royal Holloway, University of London",40,,,
+2021,University of York,16,,,
+2021,Queen Mary University of London,13,,,
+2021,University of Southampton,15,,,
+2021,Lancaster University,17,,,
+2021,University of Leeds,20,,,
+2021,University of Nottingham,19,,,
+2021,University of East Anglia UEA,28,,,
+2021,Newcastle University,26,,,
+2021,University of Birmingham,12,,,
+2021,University of Aberdeen,25,,,
+2021,University of Exeter,24,,,
+2021,University of Warwick,9,,,
+2021,University of Reading,32,,,
+2021,University of Dundee,31,,,
+2021,University of Liverpool,22,,,
+2021,University of Leicester,23,,,
+2021,Cardiff University,27,,,
+2021,University of Essex,38,,,
+2021,Bangor University,49,,,
+2021,Brunel University London,42,,,
+2021,Queen's University Belfast,29,,,
+2021,University of Bath,30,,,
+2021,Aberystwyth University,47,,,
+2021,University of Stirling,41,,,
+2021,University of Surrey,35,,,
+2021,Heriot-Watt University,44,,,
+2021,Loughborough University,45,,,
+2021,University of Kent,39,,,
+2021,St George's University of London,33,,,
+2022,University of Oxford,1,,,
+2022,University of Cambridge,2,,,
+2022,Imperial College London,3,,,
+2022,University College London,4,,,
+2022,University of Edinburgh,6,,,
+2022,London School of Economics and Political Science,5,,,
+2022,University of Manchester,8,,,
+2022,King's College London,7,,,
+2022,University of Bristol,11,,,
+2022,Durham University,23,,,
+2022,University of St Andrews,34,,,
+2022,University of Sussex,21,,,
+2022,University of Sheffield,13,,,
+2022,University of Glasgow,10,,,
+2022,"Royal Holloway, University of London",45,,,
+2022,University of York,24,,,
+2022,Queen Mary University of London,14,,,
+2022,University of Southampton,16,,,
+2022,Lancaster University,15,,,
+2022,University of Leeds,17,,,
+2022,University of Nottingham,18,,,
+2022,University of East Anglia UEA,26,,,
+2022,Newcastle University,20,,,
+2022,University of Birmingham,12,,,
+2022,University of Aberdeen,22,,,
+2022,University of Exeter,19,,,
+2022,University of Warwick,9,,,
+2022,University of Reading,32,,,
+2022,University of Dundee,30,,,
+2022,University of Liverpool,25,,,
+2022,University of Leicester,27,,,
+2022,Cardiff University,28,,,
+2022,University of Essex,38,,,
+2022,Bangor University,47,,,
+2022,Brunel University London,41,,,
+2022,Queen's University Belfast,31,,,
+2022,University of Bath,29,,,
+2022,Aberystwyth University,55,,,
+2022,University of Stirling,39,,,
+2022,University of Surrey,35,,,
+2022,Heriot-Watt University,58,,,
+2022,Loughborough University,44,,,
+2022,University of Kent,43,,,
+2022,St George's University of London,33,,,
