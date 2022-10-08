@@ -1,4 +1,4 @@
-Region,min,max,median,first_quartile,third_quartile,IQR,lower_limit,upper_limit,outlier
+Region,lower,upper,median,first_quartile,third_quartile,IQR,lower_limit,upper_limit,outliers
 East Midlands,7650,10500,9398,9199,9920,721,8117.5,11001.5,[7650]
 East of England,7500,12000,9415,9415,9415,0,9415,9415,"[7500,8320,12000]"
 London,7000,15000,10229,9500,10582.25,1082.25,7876.625,12205.625,"[7000,15000]"
