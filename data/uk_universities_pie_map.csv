@@ -1,22 +1,22 @@
 Region,Category,Value,Latitude,Longitude
 East Midlands,local,3,52.8452,-0.5392
 East Midlands,international,7,52.8452,-0.5392
-Eastern,local,4,52.2751,0.7403
-Eastern,international,6,52.2751,0.7403
+East of England,local,4,52.2751,0.7403
+East of England,international,6,52.2751,0.7403
 London,local,5,51.4952,-0.0876
 London,international,5,51.4952,-0.0876
-North East,local,1,54.9456,-2.026
-North East,international,9,54.9456,-2.026
-North West,local,7,54.429,-2.8945
-North West,international,3,54.429,-2.8945
+North East England,local,1,54.9456,-2.026
+North East England,international,9,54.9456,-2.026
+North West England,local,7,54.429,-2.8945
+North West England,international,3,54.429,-2.8945
 Northern Ireland,local,2,54.589,-6.572
 Northern Ireland,international,8,54.589,-6.572
 Scotland,local,3,56.715,-3.803
 Scotland,international,7,56.715,-3.803
-South East,local,4,50.9772,0.1276
-South East,international,6,50.9772,0.1276
-South West,local,5,50.7772,-3.584
-South West,international,5,50.7772,-3.584
+South East England,local,4,50.9772,0.1276
+South East England,international,6,50.9772,0.1276
+South West England,local,5,50.7772,-3.584
+South West England,international,5,50.7772,-3.584
 Wales,local,1,52.089,-3.584
 Wales,international,9,52.089,-3.584
 West Midlands,local,7,52.3851,-2.184
