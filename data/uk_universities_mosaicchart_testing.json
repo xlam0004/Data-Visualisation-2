@@ -1,0 +1,776 @@
+[
+ {
+   "University_name": "University of Oxford",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Cambridge",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Imperial College London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University College London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "London School of Economics and Political Science",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "King's College London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Manchester",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Warwick",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Bristol",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Birmingham",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Sheffield",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Queen Mary University of London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Lancaster University",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Southampton",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Leeds",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Nottingham",
+   "Region": "East Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Exeter",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Newcastle University",
+   "Region": "North East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Sussex",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Durham University",
+   "Region": "North East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of York",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Liverpool",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of East Anglia UEA",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Leicester",
+   "Region": "East Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Bath",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Reading",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "St George's University of London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Surrey",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Anglia Ruskin University",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Essex",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Bournemouth University",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Brunel University London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "City, University of London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Kent",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Loughborough University",
+   "Region": "East Midlands",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Royal Holloway, University of London",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Aston University",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Goldsmiths, University of London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Liverpool John Moores University",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Middlesex University",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Northumbria University",
+   "Region": "North East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Plymouth University",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "SOAS, University of London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of the Arts London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of the West of England",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Birmingham City University",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Keele University",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Lincoln",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Nottingham Trent University",
+   "Region": "East Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Portsmouth",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Bradford",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Brighton",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Coventry University",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "De Montfort University",
+   "Region": "East Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Derby",
+   "Region": "East Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Greenwich",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Hertfordshire",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Huddersfield",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Hull",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Manchester Metropolitan University",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Oxford Brookes University",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Bedfordshire",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Central Lancashire",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of East London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Edge Hill University",
+   "Region": "North East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Kingston University",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Leeds Beckett University",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "London South Bank University",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Roehampton",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Salford",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Sheffield Hallam University",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Westminster",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Canterbury Christ Church University",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Staffordshire University",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Teesside University",
+   "Region": "North East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Wolverhampton",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Chester",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Arts University Bournemouth",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University for the Creative Arts",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Bath Spa University",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Bishop Grosseteste University",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Bolton",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Buckingham",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Buckinghamshire New University",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Chichester",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Cumbria",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Falmouth University",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Gloucestershire",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Leeds Arts University",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Leeds Trinity University",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Liverpool Hope University",
+   "Region": "North West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "London Metropolitan University",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Newman University",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Northampton",
+   "Region": "East Midlands",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Norwich University of the Arts",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Plymouth Marjon University",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Ravensbourne University London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Royal Agricultural University",
+   "Region": "South West England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Solent University",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "St Mary's University, Twickenham",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Suffolk",
+   "Region": "East of England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Sunderland",
+   "Region": "North East England",
+   "Origin": "England",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of West London",
+   "Region": "London",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Winchester",
+   "Region": "South East England",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Worcester",
+   "Region": "West Midlands",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "York St John University",
+   "Region": "Yorkshire and the Humber",
+   "Origin": "England",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Edinburgh",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Glasgow",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Aberdeen",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of Dundee",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of St Andrews",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Stirling",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Strathclyde",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Edinburgh Napier University",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Heriot-Watt University",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of the West of Scotland",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Glasgow Caledonian University",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Robert Gordon University",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Abertay University",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Queen Margaret University",
+   "Region": "Scotland",
+   "Origin": "Scotland",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Cardiff University",
+   "Region": "Wales",
+   "Origin": "Wales",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Swansea University",
+   "Region": "Wales",
+   "Origin": "Wales",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Bangor University",
+   "Region": "Wales",
+   "Origin": "Wales",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Aberystwyth University",
+   "Region": "Wales",
+   "Origin": "Wales",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Cardiff Metropolitan University",
+   "Region": "Wales",
+   "Origin": "Wales",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "University of South Wales",
+   "Region": "Wales",
+   "Origin": "Wales",
+   "Cylinders": "Male"
+ },
+ {
+   "University_name": "Harper Adams University",
+   "Region": "Wales",
+   "Origin": "Wales",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "University of Wales Trinity Saint David",
+   "Region": "Wales",
+   "Origin": "Wales",
+   "Cylinders": "Female"
+ },
+ {
+   "University_name": "Wrexham Glyndwr University",
+   "Region": "Wales",
+   "Origin": "Wales",
+   "Cylinders": "Female"
+ }
+]
