@@ -1,0 +1,61 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": "Cost of Living in Different States in the United Kingdom (in pounds)",
+    "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_boxplot.csv"},
+    "width": 200, "height": 320, 
+
+    "encoding": {"y": {"field": "Region", "type": "nominal", "title": null}},
+
+    "layer": [
+      {
+        "mark": {"type": "rule"},
+        "encoding": {
+          "x": {"field": "lower", "type": "quantitative","scale": {"zero": false}, "title": null},
+          "x2": {"field": "upper"},
+          "tooltip": [
+            {"field": "lower", "type": "quantitative", "title": "Minimum"},
+            {"field": "upper", "type": "quantitative", "title": "Maximum"}
+          ]
+        }
+      },
+
+      {
+        "mark": {"type": "bar", "size": 14},
+        "encoding": {
+          "x": {"field": "first_quartile", "type": "quantitative", "scale": {"zero": false}},
+          "x2": {"field": "third_quartile"},
+          "color": {"condition":{"test":"datum.Region == 'London'", "value": "red"}, "value": "lightgrey"},
+          "tooltip": [
+            {"field": "first_quartile", "type": "quantitative", "title": "Quartile 1"},
+            {"field": "third_quartile", "type": "quantitative", "title": "Quartile 3"}
+          ]
+        }
+      },
+
+      {
+        "mark": {"type": "tick", "color": "white", "size": 14},
+        "encoding": {
+          "x": {"field": "median", "type": "quantitative", "scale": {"zero": false}},
+          "tooltip": [{"field": "median", "type": "quantitative", "title": "Median"}]
+        }
+      },
+      
+      {
+        "mark": {"type": "point"},
+        "encoding": {
+          "x": {"field": "outliers", "type": "quantitative", "scale": {"zero": false}},
+          "color":{"condition":{"test":"datum.Region == 'North East England' || datum.Region == 'Northern Ireland'", "value": null}, "value": "grey"},
+          "tooltip": [{"field": "outliers", "type": "quantitative", "title": "Outlier"}]
+        }
+      },
+
+      {
+        "mark": {"type": "point"},
+        "encoding": {
+          "x": {"field": "outliers", "type": "quantitative", "scale": {"zero": false}},
+          "color":{"condition":{"test":"datum.Region == 'London'", "value": "red"}, "value": null},
+          "tooltip": [{"field": "outliers", "type": "quantitative", "title": "Outlier"}]
+        }
+      }
+    ]
+  }

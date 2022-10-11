@@ -1,0 +1,77 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": { "url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_fees.csv"},
+    "width": 400, "height": 300,
+
+    "params":[
+      {
+          "name": "state_select",
+          "bind": {"input": "select",
+                   "options": [null, 
+                                "East Midlands", 
+                                "East of England", 
+                                "London",
+                                "North East England", 
+                                "North West England",
+                                "Northern Ireland", 
+                                "Scotland", 
+                                "South West England",
+                                "South East England", 
+                                "Wales",
+                                "West Midlands",
+                                "Yorkshire and the Humber"], 
+                   "labels": ["Show All", 
+                              "East Midlands", 
+                              "East of England", 
+                              "London",
+                              "North East England", 
+                              "North West England",
+                              "Northern Ireland", 
+                              "Scotland", 
+                              "South West England",
+                              "South East England", 
+                              "Wales",
+                              "West Midlands",
+                              "Yorkshire and the Humber"],
+                   "name": "UK States Selection: "}
+      }
+      ],
+
+    "transform": [
+      {"calculate": "datum.Education_level == 1 ? 'Undergraduate' : 'Postgraduate'", "as": "level"},
+      {"calculate": "datum.Education_level == 1 ? -datum.Average_fees : datum.Average_fees", "as": "signed_people"},
+      {"filter":"state_select == null || datum.Region == state_select"}
+    ],
+
+    "config": {
+      "view": {"stroke": null},
+      "axis": {"grid": false}
+    },
+    
+    "mark": "bar",
+    "encoding": {
+      "y": {
+        "field": "University_name",
+        "axis": null, "sort": {"field":"Average_fees"}
+      },
+
+      "x": {
+        "aggregate": "sum", "field": "signed_people",
+        "title": "Average fees (in pound)",
+        "axis": {"format": "s"}
+      },
+
+      "color": {
+        "field": "level",
+        "scale": {"range": ["#bdbdbd", "#969696"]},
+        "legend": {"orient": "top", "title": null}
+      },
+
+      "tooltip": [
+        {"field": "State", "type": "nominal", "title": "Region"}, 
+        {"field": "University_name", "type": "nominal", "title": "University"},
+        {"field": "UG_average_fees", "type": "quantitative", "format": ",", "title": ["Average Undergraduate Fees (in Pound)"]},
+        {"field": "PG_average_fees", "type": "quantitative", "format": ",", "title": ["Average Postgraduate Fees (in Pound)"]}
+    ]
+    }
+}

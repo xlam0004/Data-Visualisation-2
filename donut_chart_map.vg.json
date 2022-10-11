@@ -1,0 +1,56 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple donut chart with embedded data.",
+    "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_donutchart.csv"},
+    
+    "params":[
+        {
+            "name": "state_select",
+            "bind": {"input": "select",
+                     "options": [null, 
+                                  "East Midlands", 
+                                  "East of England", 
+                                  "London",
+                                  "North East England", 
+                                  "North West England",
+                                  "Northern Ireland", 
+                                  "Scotland", 
+                                  "South West England",
+                                  "South East England", 
+                                  "Wales",
+                                  "West Midlands",
+                                  "Yorkshire and the Humber"], 
+                     "labels": ["Show All", 
+                                "East Midlands", 
+                                "East of England", 
+                                "London",
+                                "North East England", 
+                                "North West England",
+                                "Northern Ireland", 
+                                "Scotland", 
+                                "South West England",
+                                "South East England", 
+                                "Wales",
+                                "West Midlands",
+                                "Yorkshire and the Humber"],
+                     "name": "UK States Selection: "}
+        }
+        ],
+  
+      "transform": [
+        {"filter":"state_select == null || datum.Region == state_select"}
+      ],
+
+    "mark": {"type": "arc", "innerRadius": 50, "tooltip": true},
+
+    "encoding": {
+      "theta": {"field": "Value", "type": "quantitative"},
+      "color": {"field": "Category", "type": "nominal"},
+      "tooltip": [
+        {"field": "Region", "type": "nominal", "title": "Region"},
+        {"field": "University_name", "type": "nominal", "title": "University"},        {"field": "University_name", "type": "nominal", "title": "University"}, 
+        {"field": "Category", "type": "nominal", "title": "Category"},  
+        {"field": "Value", "type": "quantitative", "title": "Number of Student"}
+    ]
+    }
+  }

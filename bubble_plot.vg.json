@@ -1,0 +1,57 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A bubbleplot showing horsepower on x, miles per gallons on y, and binned acceleration on size.",
+  "height": 700,
+  "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities.csv"},
+  
+  "params":[
+    {
+      "name": "state_highlight",
+      "select": {"type": "point", "fields":["State"]},
+      "bind": "legend"
+    }, 
+
+    {
+      "name": "international_student_highlight",
+      "select": {"type": "point", "fields":["International_students"]},
+      "bind": "legend"
+    }
+  ],
+  
+  "mark": "point",
+
+  "encoding": {
+    "x": {"field": "Minimum_IELTS_score", "type": "quantitative",
+          "scale":{"domain": [3.5, 7.0]}, "title": "IELTS Score Requirement"},
+
+    "y": {"field": "Student_enrollment", "type": "quantitative", "title": "Number of students enrolled"},
+
+    "size": {
+      "field": "International_students", 
+      "type": "quantitative", 
+      "title":["Percentage of", "International", "Students (%)"],
+      "scale":{
+        "type": "threshold",
+        "domain": [10, 20, 30, 40, 50],
+        "range": [20, 40, 80, 140, 220, 320]
+      }},
+
+    "color": {
+      "field": "State", 
+      "type": "nominal",
+      "scale":{
+        "domain": ["England", "Northern Ireland", "Scotland", "Wales"],
+        "range": ["#6baed6", "#e41a1c", "#984ea3", "#ff7f00"]
+      }},
+
+    "opacity":{
+      "condition": {"param": "state_highlight", "value": 0.8}, "value": 0.2
+    },
+
+    "tooltip":[
+      {"field": "University_name", "type": "nominal", "title": "University"},
+      {"field": "Student_enrollment", "type": "quantitative", "format": ",", "title": "Student Enrolment"},
+      {"field": "International_students_percent", "type": "quantitative", "format": ".0%", "title":"International Student"}
+    ]
+  }
+}

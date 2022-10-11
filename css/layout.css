@@ -1,0 +1,16 @@
+#main .header{
+    text-align: center;
+}
+
+.pure-u-2-3{
+    column-count: 2;
+}
+
+.pure-u-1{
+    text-align: center;
+}
+
+#text_div p{
+    text-align: justify;
+    font-size: small;
+}
