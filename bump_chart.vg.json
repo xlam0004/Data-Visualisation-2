@@ -3,7 +3,6 @@
     "width": 860, "height": 480,
     "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_bumpchart.json"},
     "config": {"background": "#fff5eb"},
-    "title": "Top Universities Ranking in the United Kingdom",
 
 	"params": 
     [

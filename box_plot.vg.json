@@ -10,7 +10,8 @@
         "field": "Region", 
         "type": "nominal", 
         "title": null,
-        "axis": {"orient":"right"}
+        "axis": {"orient":"right",
+                 "labelColor": {"condition":{"test":"datum.Region == 'London'", "value": "#f16913"}, "value": "grey"}}
       }
     },
 
@@ -35,7 +36,7 @@
         "encoding": {
           "x": {"field": "first_quartile", "type": "quantitative", "scale": {"zero": false}},
           "x2": {"field": "third_quartile"},
-          "color": {"condition":{"test":"datum.Region == 'London'", "value": "#f16913"}, "value": "grey"},
+          "color": {"condition":{"test":"datum.Region == 'London'", "value": "#f16913"}, "value": "lightgrey"},
           "tooltip": [
             {"field": "Region", "type": "nominal", "title": "State"},
             {"field": "first_quartile", "type": "quantitative", "title": "Quartile 1"},
@@ -59,7 +60,7 @@
         "transform": [{"filter":"datum.outliers > 0"}],
         "encoding": {
           "x": {"field": "outliers", "type": "quantitative", "scale": {"zero": false}},
-          "color": {"condition":{"test":"datum.Region == 'London'", "value": "#f16913"}, "value": "lightgrey"},
+          "color": {"condition":{"test":"datum.Region == 'London'", "value": "#f16913"}, "value": "grey"},
           "tooltip": [
             {"field": "Region", "type": "nominal", "title": "State"},
             {"field": "outliers", "type": "quantitative", "title": "Outlier"}]

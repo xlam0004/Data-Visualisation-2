@@ -2,7 +2,6 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "width": 460,
     "height": 535,
-    "title": "World Ranking of Top Universities in the United Kingdom",
     "projection": {"type": "transverseMercator"},
     "config": {"legend": {"orient":"none", "legendX": 350}, "background": "#fff5eb"},
     "layer":

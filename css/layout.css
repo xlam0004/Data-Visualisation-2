@@ -2,13 +2,22 @@ body {
     background-color: #fff5eb;
 }
 
-.header{
+.header h1{
     text-align: center;
     color: black;
 }
 
+.header p{
+    text-align: justify;
+    font-size: 15.7px;
+    margin-left: 352px;
+    margin-right: 352px;
+    line-height: 1.6;
+    color: black;
+}
+
 .pure-u-2-5 p {
-    font-size: 16px;
+    font-size: 32px;
 }
 
 .pure-u-1-8 img {
@@ -27,6 +36,13 @@ body {
 #propotional_symbol_map {
     box-sizing: border-box;
     border-left: 4.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
+}
+
+#map_title {
+    box-sizing: border-box;
+    border-left: 4.5rem solid transparent;
+    font-size: small;
 }
 
 #bump_chart {
@@ -37,6 +53,7 @@ body {
 #diverging_stack_bar_chart{
     box-sizing: border-box;
     border-left: 4.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
 }
 
 #bar_title{
@@ -46,10 +63,12 @@ body {
 }
 
 #undergraduate_text{
+    font-weight: bold;
     color: #fd8d3c;
 }
 
 #postgraduate_text{
+    font-weight: bold;
     color: #feb24c;
 }
 
@@ -75,17 +94,18 @@ body {
 #bubble_plot{
     box-sizing: border-box;
     border-left: 4.5rem solid transparent;
+    border-bottom: 1.5rem solid transparent;
 }
 
 #bubble_title{
     box-sizing: border-box;
-    border-left: 4.5rem solid transparent;
+    border-left: 4.0rem solid transparent;
     font-size: small;
 }
 
 #scatter_plot{
     box-sizing: border-box;
-    border-left: 2.5rem solid transparent;
+    border-left: 3.0rem solid transparent;
 }
 
 #scatter_title{
