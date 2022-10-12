@@ -1,19 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A bubbleplot showing horsepower on x, miles per gallons on y, and binned acceleration on size.",
-  "height": 700,
   "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities.csv"},
   
   "params":[
     {
       "name": "state_highlight",
       "select": {"type": "point", "fields":["State"]},
-      "bind": "legend"
-    }, 
-
-    {
-      "name": "international_student_highlight",
-      "select": {"type": "point", "fields":["International_students"]},
       "bind": "legend"
     }
   ],

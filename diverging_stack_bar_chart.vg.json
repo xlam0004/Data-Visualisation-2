@@ -1,11 +1,18 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": { "url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_fees.csv"},
-    "width": 400, "height": 300,
+    "width": 450, "height": 320,
+
+    "config": {
+      "background": "#fff5eb",
+      "view": {"stroke": null},
+      "axis": {"grid": false}      
+    },
 
     "params":[
       {
           "name": "state_select",
+          "select": {"type": "point", "fields": ["Region"]},
           "bind": {"input": "select",
                    "options": [null, 
                                 "East Midlands", 
@@ -35,18 +42,12 @@
                               "Yorkshire and the Humber"],
                    "name": "UK States Selection: "}
       }
-      ],
+    ],
 
     "transform": [
       {"calculate": "datum.Education_level == 1 ? 'Undergraduate' : 'Postgraduate'", "as": "level"},
-      {"calculate": "datum.Education_level == 1 ? -datum.Average_fees : datum.Average_fees", "as": "signed_people"},
-      {"filter":"state_select == null || datum.Region == state_select"}
+      {"calculate": "datum.Education_level == 1 ? -datum.Average_fees : datum.Average_fees", "as": "signed_people"}
     ],
-
-    "config": {
-      "view": {"stroke": null},
-      "axis": {"grid": false}
-    },
     
     "mark": "bar",
     "encoding": {
@@ -58,17 +59,24 @@
       "x": {
         "aggregate": "sum", "field": "signed_people",
         "title": "Average fees (in pound)",
-        "axis": {"format": "s"}
+        "axis": {"title": null}
       },
 
       "color": {
         "field": "level",
-        "scale": {"range": ["#bdbdbd", "#969696"]},
-        "legend": {"orient": "top", "title": null}
+        "scale": {"range": ["#feb24c", "#fd8d3c"]},
+        "legend": null
+      },
+
+      "opacity": {
+        "condition": {
+          "param": "state_select", "empty": false, "value": 1
+        }, "value": 0.5
       },
 
       "tooltip": [
         {"field": "State", "type": "nominal", "title": "Region"}, 
+        {"field": "Region", "type": "nominal", "title": "State"},
         {"field": "University_name", "type": "nominal", "title": "University"},
         {"field": "UG_average_fees", "type": "quantitative", "format": ",", "title": ["Average Undergraduate Fees (in Pound)"]},
         {"field": "PG_average_fees", "type": "quantitative", "format": ",", "title": ["Average Postgraduate Fees (in Pound)"]}

@@ -1,10 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 550,
-    "height": 520,
-    "title": "Average Undergraduate Fees of Top Universities in United Kingdom in Year 2022",
+    "width": 460,
+    "height": 535,
+    "title": "World Ranking of Top Universities in the United Kingdom",
     "projection": {"type": "transverseMercator"},
-    "config": {"legend": {"orient":"none", "legendX": 25}},
+    "config": {"legend": {"orient":"none", "legendX": 350}, "background": "#fff5eb"},
     "layer":
     [
         {
@@ -59,7 +59,7 @@
             "mark":
             {
                 "type": "geoshape",
-                "fill": "lightgrey",
+                "fill": "#d9d9d9",
                 "stroke": null,
                 "strokeWidth": 0.8
             }
@@ -79,8 +79,9 @@
             {
                 "type": "geoshape",
                 "fill": "lightgrey",
-                "stroke": "white",
-                "strokeWidth": 1.0
+                "stroke": "black",
+                "strokeWidth": 1.0,
+                "strokeOpacity": 0.3
             }
         },
 
@@ -124,7 +125,9 @@
             "mark":
             {
                 "type": "point",
+                "size": 60,
                 "filled": true,
+                "fillOpacity": 0.8,
                 "stroke": "lightgrey",
                 "strokeWidth": 1.0,
                 "tooltip": {"content": "data"}
@@ -134,39 +137,27 @@
                 "longitude":{"field": "Longitude", "type": "quantitative"},
                 "latitude":{"field": "Latitude", "type": "quantitative"},
                 
-                "size":
-                {
-                    "field": "Number_of_years",
-                    "type": "quantitative",
-                    "title": ["","Number of", "Years Since", "Founded"],
-                    "scale": 
-                    {
-                        "type": "threshold",
-                        "domain": [100, 200, 400, 600, 800],
-                        "range": [40, 90, 140, 210, 300, 420]
-                        
-                    },
-                    "legend": {"legendY": 270}
-                },
                 "color":
                 {
-                    "field": "Student_enrollment",
+                    "field": "World_rank",
                     "type": "quantitative",
-                    "title": ["Student", "Enrolment"],
+                    "title": ["World Ranking"],
+                    "legend": {"legendY": 30}, 
                     "scale": 
                     {
                         "type": "threshold",
-                        "domain": [8000, 15000, 20000, 30000],
-                        "range": ["#fdae6b", "#fd8d3c", "#f16913", "#d94801", "#7f2704"]
-                        
-                    },
-                    "legend": {"legendY": 30}
+                        "domain": [100, 800, 1500, 3000],                        
+                        "range": ["#662506", "#a63603", "#ec7014", "#fd8d3c", "#fdae6b"]
+                    }
                 },
+
+                "size":{"condition":{"test":"datum.University_name == 'University of Oxford' || datum.University_name == 'University of Cambridge'", "value": 200}, "value": 50},
+                
                 "tooltip":
                 [
                     {"field": "University_name", "type": "nominal", "title": "University"},
-                    {"field": "Student_enrollment", "type": "quantitative", "format": ",", "title": "Student Enrolment"},
-                    {"field": "Number_of_years", "type": "quantitative", "title": "Number of years since founded"}
+                    {"field": "CWUR_score", "type": "quantitative", "title": "CWUR Score"},
+                    {"field": "World_rank", "type": "quantitative", "format": ",", "title": "World Ranking"}
                 ]
             }
         }

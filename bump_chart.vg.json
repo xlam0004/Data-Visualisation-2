@@ -1,15 +1,15 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
-    "width": 740, "height": 480,
-    "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_bumpchart.csv"},
-    
+    "width": 860, "height": 480,
+    "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_bumpchart.json"},
+    "config": {"background": "#fff5eb"},
     "title": "Top Universities Ranking in the United Kingdom",
 
 	"params": 
     [
 		{"name": "top_n", 
          "value": 10 ,
-         "bind": {"input": "range", "min": 1, "max": 30, "step": 1, "name": "Top n " }}
+         "bind": {"input": "range", "min": 1, "max": 20, "step": 1, "name": "Top n " }}
 	],
 
 	"transform": 
@@ -58,8 +58,10 @@
 	    {
             "params": 
             [
-                {"name": "sel_brand_leg", "select": {"type": "point", "on": "click", "fields": ["university"]},
-                 "bind": "legend"}
+                {"name": "sel_brand_leg", 
+                 "select": {"type": "point", "on": "click", "fields": ["university"]},
+                 "bind": "legend"
+                }
             ],
 		
             "mark": {"type" :"tick", "thickness": 5 },

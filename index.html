@@ -7,7 +7,7 @@
         integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
     
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/grids-responsive-min.css" />
-    
+        
         <link rel="stylesheet" href="css/layout.css">
     
         <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
@@ -15,56 +15,97 @@
         <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
     
         <script src="vega-lite-vis.js"></script>
-    
-        <style>
-            .pure-g > div {
-                box-sizing: border-box;
-                border-left: 4.5rem solid transparent;
-                border-bottom: 1.5rem solid transparent;
-                background-color: transparent;
-            }
-        </style>
+
     </head>
     
     
     <body>
-        <div id="main">
-            <div class="header">
-                <h1 style="color:black;">Study Abroad in the United Kingdom</h1>
+        <div class="header">
+            <h1>STUDY ABROAD IN THE UNITED KINGDOM</h1>
+        </div>
+
+        <div class="pure-g">
+
+            <div class="pure-u-1">
+                <div class="pure-u-1-8">
+                    <img src="img/ranking.png" />
+                </div>
+                
+                <div class="pure-u-2-5">
+                    <p class="subtitle">Ranking</p><br>
+                </div>
             </div>
-    
-            <div class="pure-g">
-                <div class="pure-u-2-5">    
+
+            <div class="pure-u-1">
+                <p id="ranking_desc">Subtitle Description</p>
+            </div>
+
+            <div class="pure-u-1">
+                <div class="pure-u-1-3">    
                     <div id="propotional_symbol_map"></div>
                 </div>
                 <div class="pure-u-3-5">
                     <div id="bump_chart"></div>
                 </div>
+            </div>
 
 
 
-                <div class="pure-u-1-3">    
+            <div class="pure-u-1">
+                <div class="pure-u-1-8">
+                    <img src="img/money-bag.png" />
+                </div>
+                
+                <div class="pure-u-2-5">
+                    <p class="subtitle">Estimated Expenses</p><br>
+                </div>
+            </div>
+
+            <div class="pure-u-1">
+                <div class="pure-u-1-3">
+                    <p id = "bar_title">Average <span id = "undergraduate_text">Undergraduate</span> and <span id = "postgraduate_text">Postgraduate</span> Fees of Top Universities</p>    
                     <div id="diverging_stack_bar_chart"></div>
-                    <div id="mosaic_chart"></div>
                 </div>
-
-                <div class="pure-u-1-3">   
+    
+                <div class="pure-u-1-3">
+                    <p id = "box_title">Cost of Living in Different States (in pounds)</p>   
                     <div id="box_plot"></div>
-                    <br>
-                    <br>
-                    <div id="donut_chart_map"></div>
                 </div>
+    
+                <div class="pure-u-1-4">
+                    <p id = "fees_paragraph"> <br>
+                        It is crucial to budget the estimated expenses when studying abroad. We can study the the undergraduate fees 
+                        and postgraduate fees of each top universities in the United Kingdom in year 2022 from the <b>diverging stacked bar chart</b>. 
+                        By selecting a state, we can observe the distribution of the average fees in the state selected with other states.
+                        The distribution of estimated cost of living across different states in the United Kingdom can also be 
+                        studied on the <b>box plot</b>. We can see that the living cost in <span style="color: #f16913">London</span> is the highest. 
+                    </p>
+                </div>
+            </div>       
 
-                <div class="pure-u-1-3">    
+
+
+            <div class="pure-u-1">
+                <div class="pure-u-1-8">
+                    <img src="img/graduation-cap.png" />
+                </div>
+                
+                <div class="pure-u-2-5">
+                    <p class="subtitle">Overview</p><br>
+                </div>
+            </div>
+
+            <div class="pure-u-1">
+                <div class="pure-u-1-3">
+                    <p id = "bubble_title">Number of Student Enrolment versus Minimum IELTS Score Requirement</p>
                     <div id="bubble_plot"></div>
                 </div>
-
-
-
-                <div class="pure-u-1">
+                <div class="pure-u-3-5">
+                    <p id = "scatter_title">Number of Years Since Founded versus Number of Student Enrolment</p>
                     <div id="scatter_plot"></div>
                 </div>
             </div>
         </div>
+        
     </body>
 </html>

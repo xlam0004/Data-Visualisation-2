@@ -1,8 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": ["Number of Years Since Founded versus Number of Student Enrolment", "of Top Universities in the United Kingdom in Year 2022"],
-    "width": 1200, "height": 400,
+    "width": 825, "height": 500,
     "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities.csv"},
+    "config": {
+      "background": "#fff5eb"
+  },
     
     "params":[
     {
@@ -49,7 +51,7 @@
           "size":{
             "field": "International_students",
             "type": "quantitative",
-            "title": ["Percentage of", "International", "Students (%)"],
+            "legend": null,
             "scale":{
               "type": "threshold",
               "domain": [10, 20, 30, 40, 50],
@@ -60,7 +62,7 @@
           "color": {
             "field": "State", 
             "type": "nominal",
-            "title": "UK Region",
+            "legend": null,
             "scale":{
               "domain": ["England", "Northern Ireland", "Scotland", "Wales"],
               "range": ["#6baed6", "#e41a1c", "#984ea3", "#ff7f00"]
@@ -68,7 +70,7 @@
           },
 
           "tooltip": [
-            {"field": "Region", "type": "nominal", "title": "Region"}, 
+            {"field": "Region", "type": "nominal", "title": "State"}, 
             {"field": "University_name", "type": "nominal", "title": "University"},
             {"field": "Number_of_years", "type": "quantitative", "format": ",", "title": "Number of years"},
             {"field": "Student_enrollment", "type": "quantitative", "format": ",", "title": "Student Enrolment"},
@@ -89,9 +91,9 @@
         "encoding": {
             "text":{"field": "University_name", "type": "nominal"},
             "color":{"value":"black"},
-            "opacity":{"condition":{"test":"datum.University_name == 'University of Oxford'|| datum.University_name == 'Royal Agricultural University'", "value": 1}, "value": 0},
+            "opacity":{"condition":{"test":"datum.University_name == 'University of Oxford'", "value": 1}, "value": 0},
             "tooltip": [
-                {"field": "Region", "type": "nominal", "title": "Region"}, 
+                {"field": "Region", "type": "nominal", "title": "State"}, 
                 {"field": "University_name", "type": "nominal", "title": "University"},
                 {"field": "Number_of_years", "type": "quantitative", "format": ",", "title": "Number of years"},
                 {"field": "Student_enrollment", "type": "quantitative", "format": ",", "title": "Student Enrolment"},
