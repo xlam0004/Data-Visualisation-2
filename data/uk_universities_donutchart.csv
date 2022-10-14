@@ -1,263 +1,263 @@
 University_name,UK_rank,Region,State,Category,Value,Student_enrollment,students_percent,State_percent,Gender,Gender_count
-University of Oxford,1,South East England,England,Local,12084,20835,0.58,0.30,Female,23
-University of Oxford,1,South East England,England,International,8751,20835,0.42,0.30,Male,12
-University of Cambridge,2,East of England,England,Local,12005,19681,0.61,0.30,Female,5
-University of Cambridge,2,East of England,England,International,7676,19681,0.39,0.30,Male,6
-Imperial College London,3,London,England,Local,7263,17717,0.41,0.44,Female,15
-Imperial College London,3,London,England,International,10454,17717,0.59,0.44,Male,45
-University College London,4,London,England,Local,15376,35760,0.43,0.44,Female,48
-University College London,4,London,England,International,20384,35760,0.57,0.44,Male,24
-London School of Economics and Political Science,5,London,England,Local,3055,10911,0.28,0.44,Female,26
-London School of Economics and Political Science,5,London,England,International,7856,10911,0.72,0.44,Male,7
-University of Edinburgh,6,Scotland,Scotland,Local,17713,31631,0.56,0.33,Female,12
-University of Edinburgh,6,Scotland,Scotland,International,13918,31631,0.44,0.33,Male,40
-King's College London,7,London,England,Local,14406,28248,0.51,0.44,Female,42
-King's College London,7,London,England,International,13842,28248,0.49,0.44,Male,43
-University of Manchester,8,North West England,England,Local,20829,36543,0.57,0.26,Female,33
-University of Manchester,8,North West England,England,International,15714,36543,0.43,0.26,Male,21
-University of Warwick,9,West Midlands,England,Local,12946,22713,0.57,0.27,Female,19
-University of Warwick,9,West Midlands,England,International,9767,22713,0.43,0.27,Male,24
-University of Glasgow,10,Scotland,Scotland,Local,16575,27625,0.6,0.33,Female,29
-University of Glasgow,10,Scotland,Scotland,International,11050,27625,0.4,0.33,Male,25
-University of Bristol,11,South West England,England,Local,20517,24110,0.851,0.19,Female,42
-University of Bristol,11,South West England,England,International,3593,24110,0.149,0.19,Male,4
-University of Birmingham,12,West Midlands,England,Local,27380,31364,0.873,0.27,Female,3
-University of Birmingham,12,West Midlands,England,International,3984,31364,0.127,0.27,Male,30
-University of Sheffield,13,Yorkshire and the Humber,England,Local,21401,27263,0.785,0.21,Female,37
-University of Sheffield,13,Yorkshire and the Humber,England,International,5862,27263,0.215,0.21,Male,14
-Queen Mary University of London,14,London,England,Local,15321,19976,0.767,0.44,Female,23
-Queen Mary University of London,14,London,England,International,4655,19976,0.233,0.44,Male,22
-Lancaster University,15,North West England,England,Local,9511,13510,0.704,0.26,Female,19
-Lancaster University,15,North West England,England,International,3999,13510,0.296,0.26,Male,42
-University of Southampton,16,South East England,England,Local,13961,21815,0.64,0.30,Female,15
-University of Southampton,16,South East England,England,International,7854,21815,0.36,0.30,Male,33
-University of Leeds,17,Yorkshire and the Humber,England,Local,22656,33318,0.68,0.21,Female,42
-University of Leeds,17,Yorkshire and the Humber,England,International,10662,33318,0.32,0.21,Male,40
-University of Nottingham,18,East Midlands,England,Local,21952,31360,0.7,0.27,Female,49
-University of Nottingham,18,East Midlands,England,International,9408,31360,0.3,0.27,Male,36
-University of Exeter,19,South West England,England,Local,17919,22740,0.788,0.19,Female,34
-University of Exeter,19,South West England,England,International,4821,22740,0.212,0.19,Male,31
-Newcastle University,20,North East England,England,Local,17979,24630,0.73,0.23,Female,49
-Newcastle University,20,North East England,England,International,6651,24630,0.27,0.23,Male,11
-University of Sussex,21,South East England,England,Local,10931,17407,0.628,0.30,Female,35
-University of Sussex,21,South East England,England,International,6476,17407,0.372,0.30,Male,22
-University of Aberdeen,22,Scotland,Scotland,Local,9594,13107,0.732,0.33,Female,35
-University of Aberdeen,22,Scotland,Scotland,International,3513,13107,0.268,0.33,Male,13
-Durham University,23,North East England,England,Local,11839,17724,0.668,0.23,Female,23
-Durham University,23,North East England,England,International,5885,17724,0.332,0.23,Male,43
-University of York,24,Yorkshire and the Humber,England,Local,13322,17302,0.77,0.21,Female,10
-University of York,24,Yorkshire and the Humber,England,International,3980,17302,0.23,0.21,Male,40
-University of Liverpool,25,North West England,England,Local,16841,25910,0.65,0.26,Female,3
-University of Liverpool,25,North West England,England,International,9069,25910,0.35,0.26,Male,44
-University of East Anglia UEA,26,East of England,England,Local,12576,15760,0.798,0.30,Female,11
-University of East Anglia UEA,26,East of England,England,International,3184,15760,0.202,0.30,Male,21
-University of Leicester,27,East Midlands,England,Local,10339,15029,0.688,0.27,Female,17
-University of Leicester,27,East Midlands,England,International,4690,15029,0.312,0.27,Male,27
-Cardiff University,28,Wales,Wales,Local,19087,26622,0.717,0.22,Female,13
-Cardiff University,28,Wales,Wales,International,7535,26622,0.283,0.22,Male,51
-University of Bath,29,South West England,England,Local,9569,14655,0.653,0.19,Female,28
-University of Bath,29,South West England,England,International,5086,14655,0.347,0.19,Male,33
-University of Dundee,30,Scotland,Scotland,Local,9775,13016,0.751,0.33,Female,40
-University of Dundee,30,Scotland,Scotland,International,3241,13016,0.249,0.33,Male,48
-Queen's University Belfast,31,Northern Ireland,Northern Ireland,Local,11517,18487,0.623,0.23,Female,20
-Queen's University Belfast,31,Northern Ireland,Northern Ireland,International,6970,18487,0.377,0.23,Male,49
-University of Reading,32,South East England,England,Local,10509,15433,0.681,0.30,Female,35
-University of Reading,32,South East England,England,International,4924,15433,0.319,0.30,Male,20
-St George's University of London,33,London,England,Local,2754,3487,0.79,0.44,Female,32
-St George's University of London,33,London,England,International,733,3487,0.21,0.44,Male,35
-University of St Andrews,34,Scotland,Scotland,Local,5662,9500,0.596,0.33,Female,15
-University of St Andrews,34,Scotland,Scotland,International,3838,9500,0.404,0.33,Male,25
-University of Surrey,35,South East England,England,Local,9193,14455,0.636,0.30,Female,31
-University of Surrey,35,South East England,England,International,5262,14455,0.364,0.30,Male,28
-Swansea University,36,Wales,Wales,Local,13649,17589,0.776,0.22,Female,6
-Swansea University,36,Wales,Wales,International,3940,17589,0.224,0.22,Male,9
-Anglia Ruskin University,37,East of England,England,Local,11502,18887,0.609,0.30,Female,23
-Anglia Ruskin University,37,East of England,England,International,7385,18887,0.391,0.30,Male,51
-University of Essex,38,East of England,England,Local,9417,13492,0.698,0.30,Female,34
-University of Essex,38,East of England,England,International,4075,13492,0.302,0.30,Male,17
-University of Stirling,39,Scotland,Scotland,Local,5771,9749,0.592,0.33,Female,25
-University of Stirling,39,Scotland,Scotland,International,3978,9749,0.408,0.33,Male,38
-Bournemouth University,40,South West England,England,Local,11168,13788,0.81,0.19,Female,32
-Bournemouth University,40,South West England,England,International,2620,13788,0.19,0.19,Male,37
-Brunel University London,41,London,England,Local,7685,12517,0.614,0.44,Female,26
-Brunel University London,41,London,England,International,4832,12517,0.386,0.44,Male,24
-"City, University of London",42,London,England,Local,7494,14989,0.5,0.44,Female,9
-"City, University of London",42,London,England,International,7495,14989,0.5,0.44,Male,34
-University of Kent,43,South East England,England,Local,12028,17282,0.696,0.30,Female,35
-University of Kent,43,South East England,England,International,5254,17282,0.304,0.30,Male,16
-Loughborough University,44,East Midlands,England,Local,11355,15556,0.73,0.27,Female,26
-Loughborough University,44,East Midlands,England,International,4201,15556,0.27,0.27,Male,19
-"Royal Holloway, University of London",45,South East England,England,Local,6513,10177,0.64,0.30,Female,38
-"Royal Holloway, University of London",45,South East England,England,International,3664,10177,0.36,0.30,Male,35
-Aston University,46,West Midlands,England,Local,8695,11517,0.755,0.27,Female,22
-Aston University,46,West Midlands,England,International,2822,11517,0.245,0.27,Male,11
-Bangor University,47,Wales,Wales,Local,6715,8802,0.763,0.22,Female,36
-Bangor University,47,Wales,Wales,International,2087,8802,0.237,0.22,Male,9
-"Goldsmiths, University of London",48,London,England,Local,5800,9325,0.622,0.44,Female,8
-"Goldsmiths, University of London",48,London,England,International,3525,9325,0.378,0.44,Male,11
-Liverpool John Moores University,49,North West England,England,Local,17211,20662,0.833,0.26,Female,40
-Liverpool John Moores University,49,North West England,England,International,3451,20662,0.167,0.26,Male,4
-Middlesex University,50,London,England,Local,8338,15645,0.533,0.44,Female,51
-Middlesex University,50,London,England,International,7307,15645,0.467,0.44,Male,38
-Northumbria University,51,North East England,England,Local,17330,21529,0.805,0.23,Female,11
-Northumbria University,51,North East England,England,International,4199,21529,0.195,0.23,Male,14
-Plymouth University,52,South West England,England,Local,13880,16505,0.841,0.19,Female,34
-Plymouth University,52,South West England,England,International,2625,16505,0.159,0.19,Male,17
-"SOAS, University of London",53,London,England,Local,2103,4633,0.454,0.44,Female,8
-"SOAS, University of London",53,London,England,International,2530,4633,0.546,0.44,Male,27
-University of Strathclyde,54,Scotland,Scotland,Local,14116,19337,0.73,0.33,Female,42
-University of Strathclyde,54,Scotland,Scotland,International,5221,19337,0.27,0.33,Male,10
-University of the Arts London,55,London,England,Local,10637,18564,0.573,0.44,Female,41
-University of the Arts London,55,London,England,International,7927,18564,0.427,0.44,Male,26
-University of the West of England,56,South West England,England,Local,18424,23322,0.79,0.19,Female,17
-University of the West of England,56,South West England,England,International,4898,23322,0.21,0.19,Male,40
-Aberystwyth University,57,Wales,Wales,Local,4956,6446,0.769,0.22,Female,12
-Aberystwyth University,57,Wales,Wales,International,1490,6446,0.231,0.22,Male,29
-Birmingham City University,58,West Midlands,England,Local,16494,21703,0.76,0.27,Female,11
-Birmingham City University,58,West Midlands,England,International,5209,21703,0.24,0.27,Male,52
-Edinburgh Napier University,59,Scotland,Scotland,Local,7254,10812,0.671,0.33,Female,10
-Edinburgh Napier University,59,Scotland,Scotland,International,3558,10812,0.329,0.33,Male,37
-Heriot-Watt University,60,Scotland,Scotland,Local,6047,9493,0.637,0.33,Female,16
-Heriot-Watt University,60,Scotland,Scotland,International,3446,9493,0.363,0.33,Male,40
-Keele University,61,West Midlands,England,Local,7689,9122,0.843,0.27,Female,35
-Keele University,61,West Midlands,England,International,1433,9122,0.157,0.27,Male,35
-University of Lincoln,62,East of England,England,Local,12616,13925,0.906,0.30,Female,50
-University of Lincoln,62,East of England,England,International,1309,13925,0.094,0.30,Male,7
-Nottingham Trent University,63,East Midlands,England,Local,21611,27218,0.794,0.27,Female,40
-Nottingham Trent University,63,East Midlands,England,International,5607,27218,0.206,0.27,Male,30
-University of Portsmouth,64,South East England,England,Local,15702,21688,0.724,0.30,Female,32
-University of Portsmouth,64,South East England,England,International,5986,21688,0.276,0.30,Male,49
-University of the West of Scotland,65,Scotland,Scotland,Local,9863,13013,0.758,0.33,Female,43
-University of the West of Scotland,65,Scotland,Scotland,International,3150,13013,0.242,0.33,Male,39
-University of Bradford,66,Yorkshire and the Humber,England,Local,5862,8246,0.711,0.21,Female,7
-University of Bradford,66,Yorkshire and the Humber,England,International,2384,8246,0.289,0.21,Male,31
-University of Brighton,67,South East England,England,Local,12440,16094,0.773,0.30,Female,30
-University of Brighton,67,South East England,England,International,3654,16094,0.227,0.30,Male,14
-Coventry University,68,West Midlands,England,Local,16615,30827,0.539,0.27,Female,20
-Coventry University,68,West Midlands,England,International,14212,30827,0.461,0.27,Male,38
-De Montfort University,69,East Midlands,England,Local,14490,21889,0.662,0.27,Female,30
-De Montfort University,69,East Midlands,England,International,7399,21889,0.338,0.27,Male,22
-University of Derby,70,East Midlands,England,Local,12550,14941,0.84,0.27,Female,30
-University of Derby,70,East Midlands,England,International,2391,14941,0.16,0.27,Male,20
-Glasgow Caledonian University,71,Scotland,Scotland,Local,11063,13509,0.819,0.33,Female,33
-Glasgow Caledonian University,71,Scotland,Scotland,International,2446,13509,0.181,0.33,Male,7
-University of Greenwich,72,London,England,Local,8247,14196,0.581,0.44,Female,21
-University of Greenwich,72,London,England,International,5949,14196,0.419,0.44,Male,10
-University of Hertfordshire,73,East of England,England,Local,12261,17771,0.69,0.30,Female,15
-University of Hertfordshire,73,East of England,England,International,5510,17771,0.31,0.30,Male,10
-University of Huddersfield,74,Yorkshire and the Humber,England,Local,10589,14349,0.738,0.21,Female,7
-University of Huddersfield,74,Yorkshire and the Humber,England,International,3760,14349,0.262,0.21,Male,16
-University of Hull,75,Yorkshire and the Humber,England,Local,10804,13438,0.804,0.21,Female,20
-University of Hull,75,Yorkshire and the Humber,England,International,2634,13438,0.196,0.21,Male,22
-Manchester Metropolitan University,76,North West England,England,Local,23386,28520,0.82,0.26,Female,46
-Manchester Metropolitan University,76,North West England,England,International,5134,28520,0.18,0.26,Male,24
-Oxford Brookes University,77,South East England,England,Local,9798,13117,0.747,0.30,Female,7
-Oxford Brookes University,77,South East England,England,International,3319,13117,0.253,0.30,Male,11
-University of Ulster,78,Northern Ireland,Northern Ireland,Local,15987,17416,0.918,0.23,Female,18
-University of Ulster,78,Northern Ireland,Northern Ireland,International,1429,17416,0.082,0.23,Male,53
-University of Bedfordshire,79,East of England,England,Local,5348,10426,0.513,0.30,Female,53
-University of Bedfordshire,79,East of England,England,International,5078,10426,0.487,0.30,Male,12
-University of Central Lancashire,80,North West England,England,Local,13974,17644,0.792,0.26,Female,19
-University of Central Lancashire,80,North West England,England,International,3670,17644,0.208,0.26,Male,33
-University of East London,81,London,England,Local,6795,10769,0.631,0.44,Female,49
-University of East London,81,London,England,International,3974,10769,0.369,0.44,Male,15
-Edge Hill University,82,North East England,England,Local,10481,11151,0.94,0.23,Female,30
-Edge Hill University,82,North East England,England,International,670,11151,0.06,0.23,Male,29
-Kingston University,83,London,England,Local,8637,14277,0.605,0.44,Female,31
-Kingston University,83,London,England,International,5640,14277,0.395,0.44,Male,7
-Leeds Beckett University,84,Yorkshire and the Humber,England,Local,16271,18639,0.873,0.21,Female,36
-Leeds Beckett University,84,Yorkshire and the Humber,England,International,2368,18639,0.127,0.21,Male,45
-London South Bank University,85,London,England,Local,8124,12144,0.669,0.44,Female,6
-London South Bank University,85,London,England,International,4020,12144,0.331,0.44,Male,31
-University of Roehampton,86,London,England,Local,5252,7668,0.685,0.44,Female,23
-University of Roehampton,86,London,England,International,2416,7668,0.315,0.44,Male,39
-University of Salford,87,North West England,England,Local,14132,17448,0.81,0.26,Female,25
-University of Salford,87,North West England,England,International,3316,17448,0.19,0.26,Male,24
-Sheffield Hallam University,88,Yorkshire and the Humber,England,Local,22496,25535,0.881,0.21,Female,34
-Sheffield Hallam University,88,Yorkshire and the Humber,England,International,3039,25535,0.119,0.21,Male,48
-University of Westminster,89,London,England,Local,8072,16145,0.5,0.44,Female,14
-University of Westminster,89,London,England,International,8073,16145,0.5,0.44,Male,29
-Canterbury Christ Church University,90,South East England,England,Local,9423,10920,0.863,0.30,Female,8
-Canterbury Christ Church University,90,South East England,England,International,1497,10920,0.137,0.30,Male,18
-Cardiff Metropolitan University,91,Wales,Wales,Local,7216,9021,0.8,0.22,Female,24
-Cardiff Metropolitan University,91,Wales,Wales,International,1805,9021,0.2,0.22,Male,38
-Robert Gordon University,92,Scotland,Scotland,Local,6772,8899,0.761,0.33,Female,3
-Robert Gordon University,92,Scotland,Scotland,International,2127,8899,0.239,0.33,Male,27
-University of South Wales,93,Wales,Wales,Local,12431,15310,0.812,0.22,Female,4
-University of South Wales,93,Wales,Wales,International,2879,15310,0.188,0.22,Male,32
-Staffordshire University,94,West Midlands,England,Local,8024,9119,0.88,0.27,Female,50
-Staffordshire University,94,West Midlands,England,International,1095,9119,0.12,0.27,Male,29
-Teesside University,95,North East England,England,Local,10824,12780,0.847,0.23,Female,45
-Teesside University,95,North East England,England,International,1956,12780,0.153,0.23,Male,3
-University of Wolverhampton,96,West Midlands,England,Local,11245,14527,0.7741,0.27,Female,12
-University of Wolverhampton,96,West Midlands,England,International,3282,14527,0.2259,0.27,Male,46
-University of Chester,97,North West England,England,Local,9322,10740,0.868,0.26,Female,14
-University of Chester,97,North West England,England,International,1418,10740,0.132,0.26,Male,29
-Abertay University,98,Scotland,Scotland,Local,3092,3915,0.79,0.33,Female,31
-Abertay University,98,Scotland,Scotland,International,823,3915,0.21,0.33,Male,15
-Arts University Bournemouth,99,South West England,England,Local,2582,3253,0.794,0.19,Female,17
-Arts University Bournemouth,99,South West England,England,International,671,3253,0.206,0.19,Male,27
-University for the Creative Arts,100,South East England,England,Local,5274,5973,0.883,0.30,Female,44
-University for the Creative Arts,100,South East England,England,International,699,5973,0.117,0.30,Male,34
-Bath Spa University,101,South West England,England,Local,5898,6734,0.876,0.19,Female,3
-Bath Spa University,101,South West England,England,International,836,6734,0.124,0.19,Male,17
-Bishop Grosseteste University,102,East of England,England,Local,1912,1992,0.96,0.30,Female,39
-Bishop Grosseteste University,102,East of England,England,International,80,1992,0.04,0.30,Male,26
-University of Bolton,103,North West England,England,Local,3458,4899,0.706,0.26,Female,33
-University of Bolton,103,North West England,England,International,1441,4899,0.294,0.26,Male,38
-University of Buckingham,104,South East England,England,Local,1657,2531,0.655,0.30,Female,27
-University of Buckingham,104,South East England,England,International,874,2531,0.345,0.30,Male,15
-Buckinghamshire New University,105,South East England,England,Local,3656,5078,0.72,0.30,Female,23
-Buckinghamshire New University,105,South East England,England,International,1422,5078,0.28,0.30,Male,13
-University of Chichester,106,South East England,England,Local,4035,4311,0.936,0.30,Female,38
-University of Chichester,106,South East England,England,International,276,4311,0.064,0.30,Male,33
-University of Cumbria,107,North West England,England,Local,4841,5350,0.905,0.26,Female,24
-University of Cumbria,107,North West England,England,International,509,5350,0.095,0.26,Male,30
-Falmouth University,108,South West England,England,Local,4336,5144,0.843,0.19,Female,33
-Falmouth University,108,South West England,England,International,808,5144,0.157,0.19,Male,48
-University of Gloucestershire,109,South West England,England,Local,6209,6953,0.893,0.19,Female,43
-University of Gloucestershire,109,South West England,England,International,744,6953,0.107,0.19,Male,4
-Harper Adams University,110,Wales,Wales,Local,2017,2219,0.909,0.22,Female,51
-Harper Adams University,110,Wales,Wales,International,202,2219,0.091,0.22,Male,48
-Leeds Arts University,111,Yorkshire and the Humber,England,Local,1546,1771,0.873,0.21,Female,47
-Leeds Arts University,111,Yorkshire and the Humber,England,International,225,1771,0.127,0.21,Male,11
-Leeds Trinity University,112,Yorkshire and the Humber,England,Local,2841,3055,0.93,0.21,Female,36
-Leeds Trinity University,112,Yorkshire and the Humber,England,International,214,3055,0.07,0.21,Male,47
-Liverpool Hope University,113,North West England,England,Local,3791,4358,0.87,0.26,Female,4
-Liverpool Hope University,113,North West England,England,International,567,4358,0.13,0.26,Male,7
-London Metropolitan University,114,London,England,Local,4351,7542,0.577,0.44,Female,15
-London Metropolitan University,114,London,England,International,3191,7542,0.423,0.44,Male,36
-Newman University,115,West Midlands,England,Local,2067,2449,0.8441,0.27,Female,19
-Newman University,115,West Midlands,England,International,382,2449,0.1559,0.27,Male,36
-University of Northampton,116,East Midlands,England,Local,6771,9618,0.704,0.27,Female,14
-University of Northampton,116,East Midlands,England,International,2847,9618,0.296,0.27,Male,23
-Norwich University of the Arts,117,East of England,England,Local,1918,2228,0.861,0.30,Female,43
-Norwich University of the Arts,117,East of England,England,International,310,2228,0.139,0.30,Male,23
-Queen Margaret University,118,Scotland,Scotland,Local,2633,3884,0.678,0.33,Female,6
-Queen Margaret University,118,Scotland,Scotland,International,1251,3884,0.322,0.33,Male,3
-Plymouth Marjon University,119,South West England,England,Local,1771,1836,0.965,0.19,Female,20
-Plymouth Marjon University,119,South West England,England,International,65,1836,0.035,0.19,Male,12
-Ravensbourne University London,120,London,England,Local,1750,2417,0.7241,0.44,Female,18
-Ravensbourne University London,120,London,England,International,667,2417,0.2759,0.44,Male,20
-Royal Agricultural University,121,South West England,England,Local,930,1072,0.868,0.19,Female,21
-Royal Agricultural University,121,South West England,England,International,142,1072,0.132,0.19,Male,14
-Solent University,122,South East England,England,Local,6511,8835,0.737,0.30,Female,44
-Solent University,122,South East England,England,International,2324,8835,0.263,0.30,Male,33
-"St Mary's University, Twickenham",123,London,England,Local,3844,4700,0.818,0.44,Female,12
-"St Mary's University, Twickenham",123,London,England,International,856,4700,0.182,0.44,Male,24
-University of Suffolk,124,East of England,England,Local,2763,3195,0.865,0.30,Female,3
-University of Suffolk,124,East of England,England,International,432,3195,0.135,0.30,Male,7
-University of Sunderland,125,North East England,England,Local,7123,10810,0.659,0.23,Female,6
-University of Sunderland,125,North East England,England,International,3687,10810,0.341,0.23,Male,20
-University of Wales Trinity Saint David,126,Wales,Wales,Local,6795,8051,0.8441,0.22,Female,47
-University of Wales Trinity Saint David,126,Wales,Wales,International,1256,8051,0.1559,0.22,Male,31
-University of West London,127,London,England,Local,7246,8752,0.828,0.44,Female,49
-University of West London,127,London,England,International,1506,8752,0.172,0.44,Male,44
-University of Winchester,128,South East England,England,Local,6266,7009,0.894,0.30,Female,29
-University of Winchester,128,South East England,England,International,743,7009,0.106,0.30,Male,44
-University of Worcester,129,West Midlands,England,Local,6638,7596,0.874,0.27,Female,26
-University of Worcester,129,West Midlands,England,International,958,7596,0.126,0.27,Male,5
-Wrexham Glyndwr University,130,Wales,Wales,Local,2661,3168,0.84,0.22,Female,22
-Wrexham Glyndwr University,130,Wales,Wales,International,507,3168,0.16,0.22,Male,6
-York St John University,131,Yorkshire and the Humber,England,Local,5504,6029,0.913,0.21,Female,18
-York St John University,131,Yorkshire and the Humber,England,International,525,6029,0.087,0.21,Male,33
+University of Oxford,1,South East England,England,Local,12084,20835,58.0,0.3,Female,23
+University of Oxford,1,South East England,England,International,8751,20835,42.0,0.3,Male,12
+University of Cambridge,2,East of England,England,Local,12005,19681,61.0,0.3,Female,5
+University of Cambridge,2,East of England,England,International,7676,19681,39.0,0.3,Male,6
+Imperial College London,3,London,England,Local,7263,17717,41.0,0.44,Female,15
+Imperial College London,3,London,England,International,10454,17717,59.0,0.44,Male,45
+University College London,4,London,England,Local,15376,35760,43.0,0.44,Female,48
+University College London,4,London,England,International,20384,35760,57.0,0.44,Male,24
+London School of Economics and Political Science,5,London,England,Local,3055,10911,28.0,0.44,Female,26
+London School of Economics and Political Science,5,London,England,International,7856,10911,72.0,0.44,Male,7
+University of Edinburgh,6,Scotland,Scotland,Local,17713,31631,56.0,0.33,Female,12
+University of Edinburgh,6,Scotland,Scotland,International,13918,31631,44.0,0.33,Male,40
+King's College London,7,London,England,Local,14406,28248,51.0,0.44,Female,42
+King's College London,7,London,England,International,13842,28248,49.0,0.44,Male,43
+University of Manchester,8,North West England,England,Local,20829,36543,57.0,0.26,Female,33
+University of Manchester,8,North West England,England,International,15714,36543,43.0,0.26,Male,21
+University of Warwick,9,West Midlands,England,Local,12946,22713,57.0,0.27,Female,19
+University of Warwick,9,West Midlands,England,International,9767,22713,43.0,0.27,Male,24
+University of Glasgow,10,Scotland,Scotland,Local,16575,27625,60.0,0.33,Female,29
+University of Glasgow,10,Scotland,Scotland,International,11050,27625,40.0,0.33,Male,25
+University of Bristol,11,South West England,England,Local,20517,24110,85.1,0.19,Female,42
+University of Bristol,11,South West England,England,International,3593,24110,14.9,0.19,Male,4
+University of Birmingham,12,West Midlands,England,Local,27380,31364,87.3,0.27,Female,3
+University of Birmingham,12,West Midlands,England,International,3984,31364,12.7,0.27,Male,30
+University of Sheffield,13,Yorkshire and the Humber,England,Local,21401,27263,78.5,0.21,Female,37
+University of Sheffield,13,Yorkshire and the Humber,England,International,5862,27263,21.5,0.21,Male,14
+Queen Mary University of London,14,London,England,Local,15321,19976,76.7,0.44,Female,23
+Queen Mary University of London,14,London,England,International,4655,19976,23.3,0.44,Male,22
+Lancaster University,15,North West England,England,Local,9511,13510,70.4,0.26,Female,19
+Lancaster University,15,North West England,England,International,3999,13510,29.6,0.26,Male,42
+University of Southampton,16,South East England,England,Local,13961,21815,64.0,0.3,Female,15
+University of Southampton,16,South East England,England,International,7854,21815,36.0,0.3,Male,33
+University of Leeds,17,Yorkshire and the Humber,England,Local,22656,33318,68.0,0.21,Female,42
+University of Leeds,17,Yorkshire and the Humber,England,International,10662,33318,32.0,0.21,Male,40
+University of Nottingham,18,East Midlands,England,Local,21952,31360,70.0,0.27,Female,49
+University of Nottingham,18,East Midlands,England,International,9408,31360,30.0,0.27,Male,36
+University of Exeter,19,South West England,England,Local,17919,22740,78.8,0.19,Female,34
+University of Exeter,19,South West England,England,International,4821,22740,21.2,0.19,Male,31
+Newcastle University,20,North East England,England,Local,17979,24630,73.0,0.23,Female,49
+Newcastle University,20,North East England,England,International,6651,24630,27.0,0.23,Male,11
+University of Sussex,21,South East England,England,Local,10931,17407,62.8,0.3,Female,35
+University of Sussex,21,South East England,England,International,6476,17407,37.2,0.3,Male,22
+University of Aberdeen,22,Scotland,Scotland,Local,9594,13107,73.2,0.33,Female,35
+University of Aberdeen,22,Scotland,Scotland,International,3513,13107,26.8,0.33,Male,13
+Durham University,23,North East England,England,Local,11839,17724,66.8,0.23,Female,23
+Durham University,23,North East England,England,International,5885,17724,33.2,0.23,Male,43
+University of York,24,Yorkshire and the Humber,England,Local,13322,17302,77.0,0.21,Female,10
+University of York,24,Yorkshire and the Humber,England,International,3980,17302,23.0,0.21,Male,40
+University of Liverpool,25,North West England,England,Local,16841,25910,65.0,0.26,Female,3
+University of Liverpool,25,North West England,England,International,9069,25910,35.0,0.26,Male,44
+University of East Anglia UEA,26,East of England,England,Local,12576,15760,79.8,0.3,Female,11
+University of East Anglia UEA,26,East of England,England,International,3184,15760,20.2,0.3,Male,21
+University of Leicester,27,East Midlands,England,Local,10339,15029,68.8,0.27,Female,17
+University of Leicester,27,East Midlands,England,International,4690,15029,31.2,0.27,Male,27
+Cardiff University,28,Wales,Wales,Local,19087,26622,71.7,0.22,Female,13
+Cardiff University,28,Wales,Wales,International,7535,26622,28.3,0.22,Male,51
+University of Bath,29,South West England,England,Local,9569,14655,65.3,0.19,Female,28
+University of Bath,29,South West England,England,International,5086,14655,34.7,0.19,Male,33
+University of Dundee,30,Scotland,Scotland,Local,9775,13016,75.1,0.33,Female,40
+University of Dundee,30,Scotland,Scotland,International,3241,13016,24.9,0.33,Male,48
+Queen's University Belfast,31,Northern Ireland,Northern Ireland,Local,11517,18487,62.3,0.23,Female,20
+Queen's University Belfast,31,Northern Ireland,Northern Ireland,International,6970,18487,37.7,0.23,Male,49
+University of Reading,32,South East England,England,Local,10509,15433,68.1,0.3,Female,35
+University of Reading,32,South East England,England,International,4924,15433,31.9,0.3,Male,20
+St George's University of London,33,London,England,Local,2754,3487,79.0,0.44,Female,32
+St George's University of London,33,London,England,International,733,3487,21.0,0.44,Male,35
+University of St Andrews,34,Scotland,Scotland,Local,5662,9500,59.6,0.33,Female,15
+University of St Andrews,34,Scotland,Scotland,International,3838,9500,40.4,0.33,Male,25
+University of Surrey,35,South East England,England,Local,9193,14455,63.6,0.3,Female,31
+University of Surrey,35,South East England,England,International,5262,14455,36.4,0.3,Male,28
+Swansea University,36,Wales,Wales,Local,13649,17589,77.6,0.22,Female,6
+Swansea University,36,Wales,Wales,International,3940,17589,22.4,0.22,Male,9
+Anglia Ruskin University,37,East of England,England,Local,11502,18887,60.9,0.3,Female,23
+Anglia Ruskin University,37,East of England,England,International,7385,18887,39.1,0.3,Male,51
+University of Essex,38,East of England,England,Local,9417,13492,69.8,0.3,Female,34
+University of Essex,38,East of England,England,International,4075,13492,30.2,0.3,Male,17
+University of Stirling,39,Scotland,Scotland,Local,5771,9749,59.2,0.33,Female,25
+University of Stirling,39,Scotland,Scotland,International,3978,9749,40.8,0.33,Male,38
+Bournemouth University,40,South West England,England,Local,11168,13788,81.0,0.19,Female,32
+Bournemouth University,40,South West England,England,International,2620,13788,19.0,0.19,Male,37
+Brunel University London,41,London,England,Local,7685,12517,61.4,0.44,Female,26
+Brunel University London,41,London,England,International,4832,12517,38.6,0.44,Male,24
+"City, University of London",42,London,England,Local,7494,14989,50.0,0.44,Female,9
+"City, University of London",42,London,England,International,7495,14989,50.0,0.44,Male,34
+University of Kent,43,South East England,England,Local,12028,17282,69.6,0.3,Female,35
+University of Kent,43,South East England,England,International,5254,17282,30.4,0.3,Male,16
+Loughborough University,44,East Midlands,England,Local,11355,15556,73.0,0.27,Female,26
+Loughborough University,44,East Midlands,England,International,4201,15556,27.0,0.27,Male,19
+"Royal Holloway, University of London",45,South East England,England,Local,6513,10177,64.0,0.3,Female,38
+"Royal Holloway, University of London",45,South East England,England,International,3664,10177,36.0,0.3,Male,35
+Aston University,46,West Midlands,England,Local,8695,11517,75.5,0.27,Female,22
+Aston University,46,West Midlands,England,International,2822,11517,24.5,0.27,Male,11
+Bangor University,47,Wales,Wales,Local,6715,8802,76.3,0.22,Female,36
+Bangor University,47,Wales,Wales,International,2087,8802,23.7,0.22,Male,9
+"Goldsmiths, University of London",48,London,England,Local,5800,9325,62.2,0.44,Female,8
+"Goldsmiths, University of London",48,London,England,International,3525,9325,37.8,0.44,Male,11
+Liverpool John Moores University,49,North West England,England,Local,17211,20662,83.3,0.26,Female,40
+Liverpool John Moores University,49,North West England,England,International,3451,20662,16.7,0.26,Male,4
+Middlesex University,50,London,England,Local,8338,15645,53.3,0.44,Female,51
+Middlesex University,50,London,England,International,7307,15645,46.7,0.44,Male,38
+Northumbria University,51,North East England,England,Local,17330,21529,80.5,0.23,Female,11
+Northumbria University,51,North East England,England,International,4199,21529,19.5,0.23,Male,14
+Plymouth University,52,South West England,England,Local,13880,16505,84.1,0.19,Female,34
+Plymouth University,52,South West England,England,International,2625,16505,15.9,0.19,Male,17
+"SOAS, University of London",53,London,England,Local,2103,4633,45.4,0.44,Female,8
+"SOAS, University of London",53,London,England,International,2530,4633,54.6,0.44,Male,27
+University of Strathclyde,54,Scotland,Scotland,Local,14116,19337,73.0,0.33,Female,42
+University of Strathclyde,54,Scotland,Scotland,International,5221,19337,27.0,0.33,Male,10
+University of the Arts London,55,London,England,Local,10637,18564,57.3,0.44,Female,41
+University of the Arts London,55,London,England,International,7927,18564,42.7,0.44,Male,26
+University of the West of England,56,South West England,England,Local,18424,23322,79.0,0.19,Female,17
+University of the West of England,56,South West England,England,International,4898,23322,21.0,0.19,Male,40
+Aberystwyth University,57,Wales,Wales,Local,4956,6446,76.9,0.22,Female,12
+Aberystwyth University,57,Wales,Wales,International,1490,6446,23.1,0.22,Male,29
+Birmingham City University,58,West Midlands,England,Local,16494,21703,76.0,0.27,Female,11
+Birmingham City University,58,West Midlands,England,International,5209,21703,24.0,0.27,Male,52
+Edinburgh Napier University,59,Scotland,Scotland,Local,7254,10812,67.1,0.33,Female,10
+Edinburgh Napier University,59,Scotland,Scotland,International,3558,10812,32.9,0.33,Male,37
+Heriot-Watt University,60,Scotland,Scotland,Local,6047,9493,63.7,0.33,Female,16
+Heriot-Watt University,60,Scotland,Scotland,International,3446,9493,36.3,0.33,Male,40
+Keele University,61,West Midlands,England,Local,7689,9122,84.3,0.27,Female,35
+Keele University,61,West Midlands,England,International,1433,9122,15.7,0.27,Male,35
+University of Lincoln,62,East of England,England,Local,12616,13925,90.6,0.3,Female,50
+University of Lincoln,62,East of England,England,International,1309,13925,9.4,0.3,Male,7
+Nottingham Trent University,63,East Midlands,England,Local,21611,27218,79.4,0.27,Female,40
+Nottingham Trent University,63,East Midlands,England,International,5607,27218,20.6,0.27,Male,30
+University of Portsmouth,64,South East England,England,Local,15702,21688,72.4,0.3,Female,32
+University of Portsmouth,64,South East England,England,International,5986,21688,27.6,0.3,Male,49
+University of the West of Scotland,65,Scotland,Scotland,Local,9863,13013,75.8,0.33,Female,43
+University of the West of Scotland,65,Scotland,Scotland,International,3150,13013,24.2,0.33,Male,39
+University of Bradford,66,Yorkshire and the Humber,England,Local,5862,8246,71.1,0.21,Female,7
+University of Bradford,66,Yorkshire and the Humber,England,International,2384,8246,28.9,0.21,Male,31
+University of Brighton,67,South East England,England,Local,12440,16094,77.3,0.3,Female,30
+University of Brighton,67,South East England,England,International,3654,16094,22.7,0.3,Male,14
+Coventry University,68,West Midlands,England,Local,16615,30827,53.9,0.27,Female,20
+Coventry University,68,West Midlands,England,International,14212,30827,46.1,0.27,Male,38
+De Montfort University,69,East Midlands,England,Local,14490,21889,66.2,0.27,Female,30
+De Montfort University,69,East Midlands,England,International,7399,21889,33.8,0.27,Male,22
+University of Derby,70,East Midlands,England,Local,12550,14941,84.0,0.27,Female,30
+University of Derby,70,East Midlands,England,International,2391,14941,16.0,0.27,Male,20
+Glasgow Caledonian University,71,Scotland,Scotland,Local,11063,13509,81.9,0.33,Female,33
+Glasgow Caledonian University,71,Scotland,Scotland,International,2446,13509,18.1,0.33,Male,7
+University of Greenwich,72,London,England,Local,8247,14196,58.1,0.44,Female,21
+University of Greenwich,72,London,England,International,5949,14196,41.9,0.44,Male,10
+University of Hertfordshire,73,East of England,England,Local,12261,17771,69.0,0.3,Female,15
+University of Hertfordshire,73,East of England,England,International,5510,17771,31.0,0.3,Male,10
+University of Huddersfield,74,Yorkshire and the Humber,England,Local,10589,14349,73.8,0.21,Female,7
+University of Huddersfield,74,Yorkshire and the Humber,England,International,3760,14349,26.2,0.21,Male,16
+University of Hull,75,Yorkshire and the Humber,England,Local,10804,13438,80.4,0.21,Female,20
+University of Hull,75,Yorkshire and the Humber,England,International,2634,13438,19.6,0.21,Male,22
+Manchester Metropolitan University,76,North West England,England,Local,23386,28520,82.0,0.26,Female,46
+Manchester Metropolitan University,76,North West England,England,International,5134,28520,18.0,0.26,Male,24
+Oxford Brookes University,77,South East England,England,Local,9798,13117,74.7,0.3,Female,7
+Oxford Brookes University,77,South East England,England,International,3319,13117,25.3,0.3,Male,11
+University of Ulster,78,Northern Ireland,Northern Ireland,Local,15987,17416,91.8,0.23,Female,18
+University of Ulster,78,Northern Ireland,Northern Ireland,International,1429,17416,8.2,0.23,Male,53
+University of Bedfordshire,79,East of England,England,Local,5348,10426,51.3,0.3,Female,53
+University of Bedfordshire,79,East of England,England,International,5078,10426,48.7,0.3,Male,12
+University of Central Lancashire,80,North West England,England,Local,13974,17644,79.2,0.26,Female,19
+University of Central Lancashire,80,North West England,England,International,3670,17644,20.8,0.26,Male,33
+University of East London,81,London,England,Local,6795,10769,63.1,0.44,Female,49
+University of East London,81,London,England,International,3974,10769,36.9,0.44,Male,15
+Edge Hill University,82,North East England,England,Local,10481,11151,94.0,0.23,Female,30
+Edge Hill University,82,North East England,England,International,670,11151,6.0,0.23,Male,29
+Kingston University,83,London,England,Local,8637,14277,60.5,0.44,Female,31
+Kingston University,83,London,England,International,5640,14277,39.5,0.44,Male,7
+Leeds Beckett University,84,Yorkshire and the Humber,England,Local,16271,18639,87.3,0.21,Female,36
+Leeds Beckett University,84,Yorkshire and the Humber,England,International,2368,18639,12.7,0.21,Male,45
+London South Bank University,85,London,England,Local,8124,12144,66.9,0.44,Female,6
+London South Bank University,85,London,England,International,4020,12144,33.1,0.44,Male,31
+University of Roehampton,86,London,England,Local,5252,7668,68.5,0.44,Female,23
+University of Roehampton,86,London,England,International,2416,7668,31.5,0.44,Male,39
+University of Salford,87,North West England,England,Local,14132,17448,81.0,0.26,Female,25
+University of Salford,87,North West England,England,International,3316,17448,19.0,0.26,Male,24
+Sheffield Hallam University,88,Yorkshire and the Humber,England,Local,22496,25535,88.1,0.21,Female,34
+Sheffield Hallam University,88,Yorkshire and the Humber,England,International,3039,25535,11.9,0.21,Male,48
+University of Westminster,89,London,England,Local,8072,16145,50.0,0.44,Female,14
+University of Westminster,89,London,England,International,8073,16145,50.0,0.44,Male,29
+Canterbury Christ Church University,90,South East England,England,Local,9423,10920,86.3,0.3,Female,8
+Canterbury Christ Church University,90,South East England,England,International,1497,10920,13.7,0.3,Male,18
+Cardiff Metropolitan University,91,Wales,Wales,Local,7216,9021,80.0,0.22,Female,24
+Cardiff Metropolitan University,91,Wales,Wales,International,1805,9021,20.0,0.22,Male,38
+Robert Gordon University,92,Scotland,Scotland,Local,6772,8899,76.1,0.33,Female,3
+Robert Gordon University,92,Scotland,Scotland,International,2127,8899,23.9,0.33,Male,27
+University of South Wales,93,Wales,Wales,Local,12431,15310,81.2,0.22,Female,4
+University of South Wales,93,Wales,Wales,International,2879,15310,18.8,0.22,Male,32
+Staffordshire University,94,West Midlands,England,Local,8024,9119,88.0,0.27,Female,50
+Staffordshire University,94,West Midlands,England,International,1095,9119,12.0,0.27,Male,29
+Teesside University,95,North East England,England,Local,10824,12780,84.7,0.23,Female,45
+Teesside University,95,North East England,England,International,1956,12780,15.3,0.23,Male,3
+University of Wolverhampton,96,West Midlands,England,Local,11245,14527,77.4,0.27,Female,12
+University of Wolverhampton,96,West Midlands,England,International,3282,14527,22.6,0.27,Male,46
+University of Chester,97,North West England,England,Local,9322,10740,86.8,0.26,Female,14
+University of Chester,97,North West England,England,International,1418,10740,13.2,0.26,Male,29
+Abertay University,98,Scotland,Scotland,Local,3092,3915,79.0,0.33,Female,31
+Abertay University,98,Scotland,Scotland,International,823,3915,21.0,0.33,Male,15
+Arts University Bournemouth,99,South West England,England,Local,2582,3253,79.4,0.19,Female,17
+Arts University Bournemouth,99,South West England,England,International,671,3253,20.6,0.19,Male,27
+University for the Creative Arts,100,South East England,England,Local,5274,5973,88.3,0.3,Female,44
+University for the Creative Arts,100,South East England,England,International,699,5973,11.7,0.3,Male,34
+Bath Spa University,101,South West England,England,Local,5898,6734,87.6,0.19,Female,3
+Bath Spa University,101,South West England,England,International,836,6734,12.4,0.19,Male,17
+Bishop Grosseteste University,102,East of England,England,Local,1912,1992,96.0,0.3,Female,39
+Bishop Grosseteste University,102,East of England,England,International,80,1992,4.0,0.3,Male,26
+University of Bolton,103,North West England,England,Local,3458,4899,70.6,0.26,Female,33
+University of Bolton,103,North West England,England,International,1441,4899,29.4,0.26,Male,38
+University of Buckingham,104,South East England,England,Local,1657,2531,65.5,0.3,Female,27
+University of Buckingham,104,South East England,England,International,874,2531,34.5,0.3,Male,15
+Buckinghamshire New University,105,South East England,England,Local,3656,5078,72.0,0.3,Female,23
+Buckinghamshire New University,105,South East England,England,International,1422,5078,28.0,0.3,Male,13
+University of Chichester,106,South East England,England,Local,4035,4311,93.6,0.3,Female,38
+University of Chichester,106,South East England,England,International,276,4311,6.4,0.3,Male,33
+University of Cumbria,107,North West England,England,Local,4841,5350,90.5,0.26,Female,24
+University of Cumbria,107,North West England,England,International,509,5350,9.5,0.26,Male,30
+Falmouth University,108,South West England,England,Local,4336,5144,84.3,0.19,Female,33
+Falmouth University,108,South West England,England,International,808,5144,15.7,0.19,Male,48
+University of Gloucestershire,109,South West England,England,Local,6209,6953,89.3,0.19,Female,43
+University of Gloucestershire,109,South West England,England,International,744,6953,10.7,0.19,Male,4
+Harper Adams University,110,Wales,Wales,Local,2017,2219,90.9,0.22,Female,51
+Harper Adams University,110,Wales,Wales,International,202,2219,9.1,0.22,Male,48
+Leeds Arts University,111,Yorkshire and the Humber,England,Local,1546,1771,87.3,0.21,Female,47
+Leeds Arts University,111,Yorkshire and the Humber,England,International,225,1771,12.7,0.21,Male,11
+Leeds Trinity University,112,Yorkshire and the Humber,England,Local,2841,3055,93.0,0.21,Female,36
+Leeds Trinity University,112,Yorkshire and the Humber,England,International,214,3055,7.0,0.21,Male,47
+Liverpool Hope University,113,North West England,England,Local,3791,4358,87.0,0.26,Female,4
+Liverpool Hope University,113,North West England,England,International,567,4358,13.0,0.26,Male,7
+London Metropolitan University,114,London,England,Local,4351,7542,57.7,0.44,Female,15
+London Metropolitan University,114,London,England,International,3191,7542,42.3,0.44,Male,36
+Newman University,115,West Midlands,England,Local,2067,2449,84.4,0.27,Female,19
+Newman University,115,West Midlands,England,International,382,2449,15.6,0.27,Male,36
+University of Northampton,116,East Midlands,England,Local,6771,9618,70.4,0.27,Female,14
+University of Northampton,116,East Midlands,England,International,2847,9618,29.6,0.27,Male,23
+Norwich University of the Arts,117,East of England,England,Local,1918,2228,86.1,0.3,Female,43
+Norwich University of the Arts,117,East of England,England,International,310,2228,13.9,0.3,Male,23
+Queen Margaret University,118,Scotland,Scotland,Local,2633,3884,67.8,0.33,Female,6
+Queen Margaret University,118,Scotland,Scotland,International,1251,3884,32.2,0.33,Male,3
+Plymouth Marjon University,119,South West England,England,Local,1771,1836,96.5,0.19,Female,20
+Plymouth Marjon University,119,South West England,England,International,65,1836,3.5,0.19,Male,12
+Ravensbourne University London,120,London,England,Local,1750,2417,72.4,0.44,Female,18
+Ravensbourne University London,120,London,England,International,667,2417,27.6,0.44,Male,20
+Royal Agricultural University,121,South West England,England,Local,930,1072,86.8,0.19,Female,21
+Royal Agricultural University,121,South West England,England,International,142,1072,13.2,0.19,Male,14
+Solent University,122,South East England,England,Local,6511,8835,73.7,0.3,Female,44
+Solent University,122,South East England,England,International,2324,8835,26.3,0.3,Male,33
+"St Mary's University, Twickenham",123,London,England,Local,3844,4700,81.8,0.44,Female,12
+"St Mary's University, Twickenham",123,London,England,International,856,4700,18.2,0.44,Male,24
+University of Suffolk,124,East of England,England,Local,2763,3195,86.5,0.3,Female,3
+University of Suffolk,124,East of England,England,International,432,3195,13.5,0.3,Male,7
+University of Sunderland,125,North East England,England,Local,7123,10810,65.9,0.23,Female,6
+University of Sunderland,125,North East England,England,International,3687,10810,34.1,0.23,Male,20
+University of Wales Trinity Saint David,126,Wales,Wales,Local,6795,8051,84.4,0.22,Female,47
+University of Wales Trinity Saint David,126,Wales,Wales,International,1256,8051,15.6,0.22,Male,31
+University of West London,127,London,England,Local,7246,8752,82.8,0.44,Female,49
+University of West London,127,London,England,International,1506,8752,17.2,0.44,Male,44
+University of Winchester,128,South East England,England,Local,6266,7009,89.4,0.3,Female,29
+University of Winchester,128,South East England,England,International,743,7009,10.6,0.3,Male,44
+University of Worcester,129,West Midlands,England,Local,6638,7596,87.4,0.27,Female,26
+University of Worcester,129,West Midlands,England,International,958,7596,12.6,0.27,Male,5
+Wrexham Glyndwr University,130,Wales,Wales,Local,2661,3168,84.0,0.22,Female,22
+Wrexham Glyndwr University,130,Wales,Wales,International,507,3168,16.0,0.22,Male,6
+York St John University,131,Yorkshire and the Humber,England,Local,5504,6029,91.3,0.21,Female,18
+York St John University,131,Yorkshire and the Humber,England,International,525,6029,8.7,0.21,Male,33
