@@ -1,116 +1,109 @@
 body {
-    background-color: #fff5eb;
+    background-color: whitesmoke;
 }
 
+.page {
+    width: 1300px;
+    background-color: whitesmoke;
+    margin: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
 .header h1{
     text-align: center;
-    color: black;
 }
 
 .header p{
     text-align: justify;
-    font-size: 15.7px;
-    margin-left: 352px;
-    margin-right: 352px;
+    font-size: 18px;
     line-height: 1.6;
     color: black;
 }
 
-.pure-u-2-5 p {
-    font-size: 32px;
+.line_divider p{
+    font-weight: bolder;
+    line-height: 0.5;
 }
 
-.pure-u-1-8 img {
-    text-align: center;
-    box-sizing: border-box;
-    border-left: 4.5rem solid transparent;
-    width: 150px;
-    height: 80px;
+.space {
+    height: 10px;
 }
 
-#ranking_desc {
-    box-sizing: border-box;
-    border-left: 4.5rem solid transparent;
+.pure-u-7-8{
+    padding-left: 15px;
+    line-height: 50.6px;
+    color: #012169;
 }
 
-#propotional_symbol_map {
-    box-sizing: border-box;
-    border-left: 4.5rem solid transparent;
-    border-bottom: 1.5rem solid transparent;
+.pure-u-1-9 img{
+    width: 80px;
+    display: grid;
+    place-items: center;    
+}
+
+.pure-u-1-1 p{
+    text-align: justify;
+    line-height: 26px;
+    color: #525252;
 }
 
 #map_title {
-    box-sizing: border-box;
-    border-left: 4.5rem solid transparent;
+    text-align: center;
     font-size: small;
 }
 
-#bump_chart {
-    box-sizing: border-box;
-    border-left: 3.2rem solid transparent;
+#bump_title{
+    text-align: center;
+    font-size: small;
+    padding-left: 40px;
 }
 
-#diverging_stack_bar_chart{
-    box-sizing: border-box;
-    border-left: 4.5rem solid transparent;
-    border-bottom: 1.5rem solid transparent;
+#bump_chart{
+    padding-left: 40px;
 }
 
 #bar_title{
-    box-sizing: border-box;
-    border-left: 4.5rem solid transparent;
+    text-align: center;
     font-size: small;
-}
-
-#undergraduate_text{
-    font-weight: bold;
-    color: #fd8d3c;
-}
-
-#postgraduate_text{
-    font-weight: bold;
-    color: #feb24c;
 }
 
 #box_plot{
-    box-sizing: border-box;
-    border-left: 4.9rem solid transparent;
+    padding-left: 40px;
 }
 
 #box_title{
-    box-sizing: border-box;
-    border-left: 4.9rem solid transparent;
+    text-align: center;
+    font-size: small;
+    padding-left: 40px;
+}
+
+#donut_title {
+    text-align: center;
     font-size: small;
 }
 
-#fees_paragraph{
-    box-sizing: border-box;
-    border-left: 8.5rem solid transparent;
+#dot_plot_title {
+    text-align: center;
     font-size: small;
-    line-height: 1.6;
-
+    padding-left: 80px;
 }
 
-#bubble_plot{
-    box-sizing: border-box;
-    border-left: 4.5rem solid transparent;
-    border-bottom: 1.5rem solid transparent;
+#range_dot_plot{
+    padding-left: 80px;
 }
 
-#bubble_title{
-    box-sizing: border-box;
-    border-left: 4.0rem solid transparent;
+#bubble_title {
+    text-align: center;
     font-size: small;
 }
 
-#scatter_plot{
-    box-sizing: border-box;
-    border-left: 3.0rem solid transparent;
+#scatter_title {
+    text-align: center;
+    font-size: small;
 }
 
-#scatter_title{
-    box-sizing: border-box;
-    border-left: 5.2rem solid transparent;
-    font-size: small;
+#scatter_plot {
+    padding-left: 10px;
 }
 
