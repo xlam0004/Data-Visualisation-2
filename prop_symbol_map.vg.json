@@ -1,9 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 460,
-    "height": 535,
+    "width": 433,
+    "height": 585,
     "projection": {"type": "transverseMercator"},
-    "config": {"legend": {"orient":"none", "legendX": 350}, "background": "#fff5eb"},
+    "config": {"legend": {"orient":"none", "legendX": 350}, "background": "whitesmoke"},
     "layer":
     [
         {
@@ -90,14 +90,15 @@
             {
                 "type": "text",
                 "dy": -10,
-                "fontWeight": "bold",
+                "fontWeight": "bolder",
                 "fontSize": 12
             },
             "encoding": 
             {
                 "longitude":{"field": "Longitude", "type": "quantitative"},
                 "latitude":{"field": "Latitude", "type": "quantitative"},
-                "text": {"field": "Region", "type": "nominal"}
+                "text": {"field": "Region", "type": "nominal"},
+                "color": {"condition":{"test":"datum.Region == 'ENGLAND'", "value": "#C8102E"}, "value": "#525252"}
             }
         },
 
@@ -109,7 +110,8 @@
                 "dy": -10,
                 "fontSize": 9,
                 "fontWeight":200,
-                "fontStyle": "italic"
+                "fontStyle": "italic", 
+                "color": "#525252"
             },
             "encoding": 
             {
@@ -121,6 +123,8 @@
 
         {
             "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities.csv"},
+            
+            "transform": [{"calculate": "toString(datum.CWUR_score)", "as": "CWUR"}],
             "mark":
             {
                 "type": "point",
@@ -146,7 +150,7 @@
                     {
                         "type": "threshold",
                         "domain": [100, 800, 1500, 3000],                        
-                        "range": ["#662506", "#a63603", "#ec7014", "#fd8d3c", "#fdae6b"]
+                        "range": ["#012169", "#08519c", "#2171b5", "#4292c6", "#6baed6"]
                     }
                 },
 
@@ -155,7 +159,7 @@
                 "tooltip":
                 [
                     {"field": "University_name", "type": "nominal", "title": "University"},
-                    {"field": "CWUR_score", "type": "quantitative", "title": "CWUR Score"},
+                    {"field": "CWUR", "type": "nominal", "title": "CWUR Score"},
                     {"field": "World_rank", "type": "quantitative", "format": ",", "title": "World Ranking"}
                 ]
             }

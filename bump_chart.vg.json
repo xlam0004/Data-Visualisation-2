@@ -1,8 +1,9 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.1.0.json",
-    "width": 860, "height": 480,
+    "width": 800, "height": 440,
     "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_bumpchart.json"},
-    "config": {"background": "#fff5eb"},
+    "config": {"background": "whitesmoke"},
+    "padding":{"bottom": 40, "top": 5},
 
 	"params": 
     [
@@ -48,9 +49,9 @@
         {
             "mark": {"type": "line", "interpolate": "monotone" },
             "encoding": {
-                "color": { "field": "university", "legend": null } ,
+                "color": { "field": "university", "legend": {"orient": "bottom", "columns": 5, "title": null} } ,
                 "size":{ "condition":  {"param": "sel_brand_leg", "empty": false, "value": 3},"value": 1},
-                "tooltip":{"field":"university"}
+                "tooltip":{"field":"university"}                
             }
 	    },
 
@@ -66,7 +67,8 @@
             "mark": {"type" :"tick", "thickness": 5 },
 	        "encoding": {
                 "color": {"condition":  {"param": "sel_brand_leg", "empty": false, "value": "black"} , "field": "university"},
-                "tooltip":{"field":"university"}}
+                "tooltip":[
+                    {"field":"university", "type": "nominal", "title": "Univeristy"}]}
 	    }
     ]
 }

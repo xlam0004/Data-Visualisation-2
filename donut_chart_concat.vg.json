@@ -1,0 +1,671 @@
+  {
+      "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+      "description": "A simple donut chart with embedded data.",
+      "config": {"background": "whitesmoke", "legend": {"orient":"top", "title": null}},
+      "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_donutchart.json"},
+
+      "vconcat": [
+        {
+          "hconcat":[
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["East Midlands"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            }, 
+      
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["East of England"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            }, 
+      
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["London"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            }, 
+      
+            {
+              "width": 90, "height": 90,
+              "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/donut_chart/North%20East%20England.csv"},
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["North East England"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            } 
+          ]
+        },
+
+        {
+          "hconcat":[
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["North West England"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            }, 
+      
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["Northern Ireland"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            }, 
+      
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["Scotland"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            }, 
+      
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["South West England"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            } 
+          ]
+        },
+
+        {
+          "hconcat":[
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["South East England"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            }, 
+      
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["Wales"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            }, 
+      
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["West Midlands"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 12,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]}
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            }, 
+      
+            {
+              "width": 90, "height": 90,
+              "transform": [
+                {"filter": {"field": "Region", "oneOf": ["Yorkshire and the Humber"]}},
+                {"calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'", "as": "Percentage"},
+                {"calculate": "datum.Value + ' of ' + datum.Category + ' Students'", "as": "Number"}
+              ],
+      
+              "layer": [
+                {
+                  "mark": {
+                    "type": "text",
+                    "fontSize": 20
+                  },
+                  "encoding": {
+                      "text":{"field": "State_percent", "type": "nominal", "format": ".0%"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {
+                    "type": "text",
+                    "dy": 60,
+                    "fontSize": 10,
+                    "fontWeight":"normal"
+                  },
+                  "encoding": {
+                      "text":{"field": "Region", "type": "nominal"},
+                      "color":{"value":"black"}
+                  }
+                },
+                {
+                  "mark": {"type": "arc", "innerRadius": 25, "tooltip": true},
+      
+                  "encoding": {
+                    "theta": {"field": "Value", "type": "quantitative"},
+                    "color": {
+                      "field": "Category", 
+                      "type": "nominal", 
+                      "scale": {
+                        "domain": ["Local", "International"],
+                        "range": ["#fdd0a2", "#fd8d3c"]},
+                      "legend": null
+                      },
+                    "tooltip": [
+                      {"field": "Category", "type": "nominal", "title": "Category"}, 
+                      {"field": "Region", "type": "nominal", "title": "Region"},
+                      {"field": "University_name", "type": "nominal", "title": "University"},  
+                      {"field": "Percentage", "type": "nominal"}, 
+                      {"field": "Number", "type": "nominal"}]
+                    }
+                }
+              ] 
+            } 
+          ]
+        }
+      ]
+
+  }

@@ -1,9 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "width": 825, "height": 500,
+    "width": 785, "height": 500,
     "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities.csv"},
+    "padding":{"left": 20},
     "config": {
-      "background": "#fff5eb"
+      "background": "whitesmoke", "legend": {"orient": "top"}
   },
     
     "params":[
@@ -22,7 +23,6 @@
     ],
     
     "transform": [
-      {"calculate": "'https://www.google.com/search?q=' + datum.Website", "as": "url"},
       {"filter": "datum.Number_of_years < Year_above"},
       {"filter":"state_select == null || datum.State == state_select"}
 
@@ -84,13 +84,13 @@
             "type": "text", 
             "align": "left", 
             "baseline": "bottom",
-            "dy": -10,
+            "dy": -20,
             "dx": -15,
             "fontSize": 11.5,
             "fontStyle": "italic"
         },
         "encoding": {
-            "text":{"value": "Most of the universities are founded in Year 1992."},
+            "text":{"value": ["Most of the universities", "are founded in Year 1992."]},
             "color":{"value":"black"},
             "opacity":{"condition":{"test":"datum.University_name == 'Northumbria University'", "value": 1}, "value": 0},
             "tooltip": [

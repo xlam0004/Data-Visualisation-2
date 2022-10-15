@@ -4,13 +4,13 @@
 
     "config": {
       "legend": {"orient":"none", "legendX": 240, "titleLimit": 300},
-      "background": "#fff5eb"
+      "background": "whitesmoke"
     },
 
 
     "hconcat": [
       {
-        "width": 210,
+        "width": 180,
         "height": 545,
         "mark": "point",
         "encoding": {
@@ -27,7 +27,7 @@
         "size": {
             "field": "International_students", 
             "type": "quantitative", 
-            "title":["Percentage of International", "Students (%)"],
+            "title":["Percentage of", "International", "Students (%)"],
             "legend": {"legendY": 400},
             "scale":{
               "type": "threshold",
@@ -53,7 +53,7 @@
       },
         
       {
-        "width": 140,
+        "width": 120,
         "height": 280,
         "mark": "point",
         "params": [{"name": "brush", "select": {"type": "interval", "encodings": ["y"]}}],
@@ -61,7 +61,7 @@
           "x": {
             "field": "Minimum_IELTS_score", 
             "type": "quantitative",
-            "axis": {"title": null, "labelColor": "#fff5eb"},
+            "axis": {"title": null, "labelColor": "#fff5eb", "grid": false},
             "scale":{"domain": [3.5, 7.0]}
           },
           "y": {

@@ -1,0 +1,98 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_donutchart.json"},
+    "width": 650, "height": 300,
+    "config": {"background": "whitesmoke"},
+    "params":[
+        {
+            "name": "state_select",
+            "value": "East Midlands",
+            "bind": {"input": "select",
+                     "options": ["East Midlands", "East of England", "London", "North East England", "North West England", "Northern Ireland", 
+                                    "Scotland", "South West England", "South East England", "Wales", "West Midlands", "Yorkshire and the Humber"], 
+                     "labels": ["East Midlands", "East of England", "London", "North East England", "North West England", "Northern Ireland", 
+                                    "Scotland", "South West England", "South East England", "Wales", "West Midlands", "Yorkshire and the Humber"],
+                     "name": "UK States Selection: "}
+        }
+    ],
+
+    "transform": [
+        {"filter":"datum.Region == state_select"}
+    ],
+
+    "encoding": {
+      "x": {
+        "field": "Gender_count",
+        "type": "quantitative",
+        "title": "Gender Ratio",
+        "scale": {"domain":[20,80]}
+      },
+      "y": {
+        "field": "University_name",
+        "type": "nominal",
+        "title": null,
+        "axis": {
+          "offset": 5,
+          "ticks": false,
+          "minExtent": 70,
+          "domain": false,
+          "orient": "right"
+        }
+      }
+    },
+    "layer": [
+      {
+        "mark": "line",
+        "encoding": {
+          "detail": {
+            "field": "University_name",
+            "type": "nominal"
+          },
+          "color": {"value": "grey"}
+        }
+      },
+
+      {
+        "mark": {
+          "type": "point",
+          "filled": true
+        },
+        "encoding": {
+          "color": {
+            "field": "Gender",
+            "type": "ordinal",
+            "scale": {
+              "domain": ["Male", "Female"],
+              "range": ["#012169", "#C8102E"]
+            },
+            "title": "Gender", 
+            "legend": null
+          },
+          "size": {"value": 100},
+          "opacity": {"value": 1},
+          "tooltip": [
+            {"field": "University_name", "type": "nominal", "title": "University"},
+            {"field": "Gender", "type": "nominal", "title": "Gender"},
+            {"field": "Gender_count", "type": "quantitative", "title": "Ratio Amount"}]
+        }
+      }, 
+
+      {
+        "mark": {
+            "type": "text", 
+            "align": "left", 
+            "baseline": "bottom",
+            "fontSize": 11.5,
+            "dx": 175,
+            "dy": -3,
+            "fontStyle": "italic"
+        },
+        "encoding": {
+            "text":{"value": "Bishop Grosseteste Unviersity has the largest gender gap."},
+            "color":{"value":"black"},
+            "opacity":{"condition":{"test":"datum.University_name == 'Bishop Grosseteste University' && datum.Gender == 'Male'", "value": 1}, "value": 0}
+        }
+      }
+    ]
+  }
+  

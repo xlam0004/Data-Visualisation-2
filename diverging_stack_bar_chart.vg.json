@@ -1,10 +1,10 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "data": { "url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_fees.csv"},
-    "width": 450, "height": 320,
+    "width": 450, "height": 335,
 
     "config": {
-      "background": "#fff5eb",
+      "background": "whitesmoke",
       "view": {"stroke": null},
       "axis": {"grid": false}      
     },
@@ -64,14 +64,14 @@
 
       "color": {
         "field": "level",
-        "scale": {"range": ["#feb24c", "#fd8d3c"]},
+        "scale": {"range": ["#C8102E", "#012169"]},
         "legend": null
       },
 
       "opacity": {
         "condition": {
           "param": "state_select", "empty": false, "value": 1
-        }, "value": 0.5
+        }, "value": 0.4
       },
 
       "tooltip": [

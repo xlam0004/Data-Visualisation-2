@@ -2,30 +2,38 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": "",
     "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_boxplot.csv"},
-    "width": 400, "height": 320, 
+    "width": 663, "height": 350, 
 
-    "config":{"background": "#fff5eb"},
+    "config":{"background": "whitesmoke"},
     "encoding": {
       "y": {
         "field": "Region", 
         "type": "nominal", 
         "title": null,
-        "axis": {"orient":"right",
-                 "labelColor": {"condition":{"test":"datum.Region == 'London'", "value": "#f16913"}, "value": "grey"}}
+        "axis": {
+          "offset": 5,
+          "ticks": false,
+          "minExtent": 70,
+          "domain": false,
+          "orient": "right"
+        }
       }
     },
 
     "layer": [
       
       {
-        "mark": {"type": "rule"},
+        "mark": {"type": "rule", "color":"grey"},
         "encoding": {
-          "x": {"field": "lower", "type": "quantitative","scale": {"zero": false}, "title": null},
+          "x": {"field": "lower", "type": "quantitative","scale": {"domain": [5000, 15000]}, "title": null},
           "x2": {"field": "upper"},
           "tooltip": [
             {"field": "Region", "type": "nominal", "title": "State"},
-            {"field": "lower", "type": "quantitative", "title": "Minimum"},
-            {"field": "upper", "type": "quantitative", "title": "Maximum"}
+            {"field": "lower", "type": "quantitative", "format":",", "title": "Minimum"},
+            {"field": "first_quartile", "type": "quantitative", "format":",", "title": "Quartile 1"},
+            {"field": "median", "type": "quantitative", "format":",", "title": "Median"},
+            {"field": "third_quartile", "type": "quantitative", "format":",", "title": "Quartile 3"},
+            {"field": "upper", "type": "quantitative", "format":",", "title": "Maximum"}
           ]
         }
       },
@@ -36,22 +44,31 @@
         "encoding": {
           "x": {"field": "first_quartile", "type": "quantitative", "scale": {"zero": false}},
           "x2": {"field": "third_quartile"},
-          "color": {"condition":{"test":"datum.Region == 'London'", "value": "#f16913"}, "value": "lightgrey"},
+          "color": {"condition":{"test":"datum.Region == 'London'", "value": "#0570b0"}, "value": "lightgrey"},
           "tooltip": [
             {"field": "Region", "type": "nominal", "title": "State"},
-            {"field": "first_quartile", "type": "quantitative", "title": "Quartile 1"},
-            {"field": "third_quartile", "type": "quantitative", "title": "Quartile 3"}
+            {"field": "lower", "type": "quantitative", "format":",", "title": "Minimum"},
+            {"field": "first_quartile", "type": "quantitative", "format":",", "title": "Quartile 1"},
+            {"field": "median", "type": "quantitative", "format":",", "title": "Median"},
+            {"field": "third_quartile", "type": "quantitative", "format":",", "title": "Quartile 3"},
+            {"field": "upper", "type": "quantitative", "format":",", "title": "Maximum"}
           ]
         }
       },
 
       {
-        "mark": {"type": "tick", "color": "black", "size": 14},
+        "mark": {"type": "tick", "size": 14, "thickness": 2},
         "encoding": {
           "x": {"field": "median", "type": "quantitative", "scale": {"zero": false}},
+          "color": {"condition":{"test":"datum.Region == 'Northern Ireland'", "value": "#C8102E"}, "value": "grey"},
           "tooltip": [
             {"field": "Region", "type": "nominal", "title": "State"},
-            {"field": "median", "type": "quantitative", "title": "Median"}]
+            {"field": "lower", "type": "quantitative", "format":",", "title": "Minimum"},
+            {"field": "first_quartile", "type": "quantitative", "format":",", "title": "Quartile 1"},
+            {"field": "median", "type": "quantitative", "format":",", "title": "Median"},
+            {"field": "third_quartile", "type": "quantitative", "format":",", "title": "Quartile 3"},
+            {"field": "upper", "type": "quantitative", "format":",", "title": "Maximum"}
+          ]
         }
       },
       
@@ -60,10 +77,10 @@
         "transform": [{"filter":"datum.outliers > 0"}],
         "encoding": {
           "x": {"field": "outliers", "type": "quantitative", "scale": {"zero": false}},
-          "color": {"condition":{"test":"datum.Region == 'London'", "value": "#f16913"}, "value": "grey"},
+          "color": {"condition":{"test":"datum.Region == 'London'", "value": "#0570b0"}, "value": "grey"},
           "tooltip": [
             {"field": "Region", "type": "nominal", "title": "State"},
-            {"field": "outliers", "type": "quantitative", "title": "Outlier"}]
+            {"field": "outliers", "type": "quantitative", "format":",", "title": "Outlier"}]
         }
       }
     ]
