@@ -30,10 +30,13 @@ body {
     height: 10px;
 }
 
-.pure-u-7-8{
-    padding-left: 15px;
-    line-height: 50.6px;
+.pure-u-7-8 p{
+    padding-left: 20px;
+    line-height: 30.6px;
+    font-weight: bold;
+    font-size: 32px;
     color: #012169;
+    font-family:'Times New Roman', Times, serif;
 }
 
 .pure-u-1-9 img{
