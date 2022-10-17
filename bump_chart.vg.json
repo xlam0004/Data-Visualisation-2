@@ -50,8 +50,8 @@
             "mark": {"type": "line", "interpolate": "monotone" },
             "encoding": {
                 "color": { "field": "university", "legend": {"orient": "bottom", "columns": 5, "title": null} } ,
-                "size":{ "condition":  {"param": "sel_brand_leg", "empty": false, "value": 3},"value": 1},
-                "tooltip":{"field":"university"}                
+                "size":{ "condition":  {"param": "sel_brand_leg", "empty": false, "value": 5},"value": 1},
+                "tooltip":{"field":"university"}
             }
 	    },
 
@@ -64,7 +64,7 @@
                 }
             ],
 		
-            "mark": {"type" :"tick", "thickness": 5 },
+            "mark": {"type" :"tick", "thickness": 6, "width": 20},
 	        "encoding": {
                 "color": {"condition":  {"param": "sel_brand_leg", "empty": false, "value": "black"} , "field": "university"},
                 "tooltip":[

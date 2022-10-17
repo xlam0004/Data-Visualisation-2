@@ -10,7 +10,7 @@ vegaEmbed("#diverging_stack_bar_chart", vg_3, {"actions": false}).then(function(
 var vg_4 = "box_plot.vg.json";
 vegaEmbed("#box_plot", vg_4, {"actions": false}).then(function(result){}).catch(console.error);
 
-var vg_5 = "donut_chart_concat.vg.json";
+var vg_5 = "donut_chart.vg.json";
 vegaEmbed("#donut_chart_concat", vg_5, {"actions": false}).then(function(result){}).catch(console.error);
 
 var vg_6 = "range_dot_plot.vg.json";

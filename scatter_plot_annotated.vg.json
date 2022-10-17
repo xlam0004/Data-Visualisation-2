@@ -46,6 +46,23 @@
 
     "layer":[
       {
+        "mark": {
+            "type": "text", 
+            "align": "left", 
+            "baseline": "bottom",
+            "dy": -20,
+            "dx": -15,
+            "fontSize": 11.5,
+            "fontStyle": "italic"
+        },
+        "encoding": {
+            "text":{"value": ["Most of the universities", "are founded in Year 1992."]},
+            "color":{"value":"black"},
+            "opacity":{"condition":{"test":"datum.University_name == 'Northumbria University'", "value": 1}, "value": 0}
+            
+        }
+      }, 
+      {
         "mark": "point",
         "encoding": {
           "size":{
@@ -77,32 +94,9 @@
             {"field": "International_students_percent", "type": "quantitative", "format": ".0%", "title":"International Student"}
           ]
         }
-      },
-
-      {
-        "mark": {
-            "type": "text", 
-            "align": "left", 
-            "baseline": "bottom",
-            "dy": -20,
-            "dx": -15,
-            "fontSize": 11.5,
-            "fontStyle": "italic"
-        },
-        "encoding": {
-            "text":{"value": ["Most of the universities", "are founded in Year 1992."]},
-            "color":{"value":"black"},
-            "opacity":{"condition":{"test":"datum.University_name == 'Northumbria University'", "value": 1}, "value": 0},
-            "tooltip": [
-                {"field": "Region", "type": "nominal", "title": "State"}, 
-                {"field": "University_name", "type": "nominal", "title": "University"},
-                {"field": "Founded_year", "type": "quantitative", "title": "Founded Year"},
-                {"field": "Number_of_years", "type": "quantitative", "format": ",", "title": "Number of Years"},
-                {"field": "Student_enrollment", "type": "quantitative", "format": ",", "title": "Student Enrolment"},
-                {"field": "International_students_percent", "type": "quantitative", "format": ".0%", "title":"International Student"}
-            ]
-        }
       }
+
+      
     ]
 }
 

@@ -1,0 +1,82 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple donut chart with embedded data.",
+    "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities_donutchart.csv"},
+    "config": {"background": "whitesmoke"},
+    "width": 300, "height": 300,
+    "params":[
+      {
+          "name": "state_select",
+          "value": "East Midlands",
+          "bind": {"input": "select",
+                   "options": ["East Midlands", "East of England", "London", "North East England", "North West England", "Northern Ireland", 
+                                  "Scotland", "South West England", "South East England", "Wales", "West Midlands", "Yorkshire and the Humber"], 
+                   "labels": ["East Midlands", "East of England", "London", "North East England", "North West England", "Northern Ireland", 
+                                  "Scotland", "South West England", "South East England", "Wales", "West Midlands", "Yorkshire and the Humber"],
+                   "name": "UK States Selection: "}
+      }
+    ],
+  
+    "transform": [
+      {"filter":"state_select == null || datum.Region == state_select"},
+      {
+        "calculate": "datum.students_percent + '% of ' + datum.Category + ' Students'",
+        "as": "Percentage"
+      },
+      {
+        "calculate": "datum.Value + ' of ' + datum.Category + ' Students'",
+        "as": "Number"
+      }
+    ],
+
+    "layer":[ 
+      {
+        "mark": {"type": "arc", "innerRadius": 100, "tooltip": true},
+
+        "encoding": {
+          "theta": {"field": "Value", "type": "quantitative"},
+          "color": {
+            "field": "Category", 
+            "type": "nominal", 
+            "legend": null,
+            "scale": {
+              "domain": ["International", "Local"],
+              "range": ["#012169", "#bdbdbd"]
+            }},
+            "tooltip": [
+              {"field": "Category", "type": "nominal", "title": "Category"},
+              {
+                "field": "University_name",
+                "type": "nominal",
+                "title": "University"
+              },
+              {"field": "Percentage", "type": "nominal"},
+              {"field": "Number", "type": "nominal"}
+            ]
+        }
+      },
+
+      {
+        "mark": {
+            "type": "text",
+            "dy": 176
+        },
+        "encoding": {
+            "text":{"field": "Region", "type": "nominal"},
+            "color":{"value":"whitesmoke"}
+        }
+      }, 
+
+      {
+        "mark": {"type": "text", "fontSize": 52},
+        "encoding": {
+          "text": {
+            "field": "State_percent",
+            "type": "nominal",
+            "format": ".0%"
+          },
+          "color": {"value": "#012169"}
+        }
+      }
+    ]    
+  }

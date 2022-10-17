@@ -124,7 +124,9 @@
         {
             "data": {"url": "https://raw.githubusercontent.com/xlam0004/Data-Visualisation-2/main/data/uk_universities.csv"},
             
-            "transform": [{"calculate": "toString(datum.CWUR_score)", "as": "CWUR"}],
+            "transform": [
+                {"calculate": "toString(datum.CWUR_score)", "as": "CWUR"},
+                {"calculate": "'https://' + datum.Website", "as": "url"}],
             "mark":
             {
                 "type": "point",
@@ -139,7 +141,7 @@
             {
                 "longitude":{"field": "Longitude", "type": "quantitative"},
                 "latitude":{"field": "Latitude", "type": "quantitative"},
-                
+                "href": {"field": "url", "type": "nominal"},
                 "color":
                 {
                     "field": "World_rank",
