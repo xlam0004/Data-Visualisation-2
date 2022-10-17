@@ -39,6 +39,19 @@ body {
     font-family:'Times New Roman', Times, serif;
 }
 
+#reference p{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #012169;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#link p{
+    font-size: 14px;
+    color: #969696;
+}
+
 .pure-u-1-9 img{
     width: 80px;
     display: grid;
