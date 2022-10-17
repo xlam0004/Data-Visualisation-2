@@ -86,6 +86,10 @@ body {
     font-size: small;
 }
 
+#donut_chart_concat{
+    padding-left: 60px;
+}
+
 #dot_plot_title {
     text-align: center;
     font-size: small;
@@ -110,3 +114,9 @@ body {
     padding-left: 10px;
 }
 
+#small-font p{
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+    color: #969696;
+}
